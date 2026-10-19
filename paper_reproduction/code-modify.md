@@ -11,7 +11,7 @@
 - Excluded the old placement outputs with a different period grid, partial O2 snapshots, unreported experiments, server orchestration and test fixtures. The archived full FRS and manuscript table summaries remain the authoritative downstream inputs.
 - Added no new model training, changed no manuscript/response text, and did not push or publish.
 
-Detailed results and remaining release gaps are in `VALIDATION.md` and `AUDIT_ZH.md`. No claim of complete checkpoint-level reproduction is made for artifacts still awaiting publication.
+Detailed results and remaining release gaps are in `VALIDATION.md` and `AUDIT.md`. No claim of complete checkpoint-level reproduction is made for artifacts still awaiting publication.
 
 ## 2026-10-19 — independent repository
 
@@ -19,3 +19,10 @@ Detailed results and remaining release gaps are in `VALIDATION.md` and `AUDIT_ZH
 - Verified all six original remote branch tips and confirmed `df60ca2` is the latest historical artifact branch. The final O2 summary matches that branch.
 - Preserved exact source/evidence bytes in Git and scoped workspace ignore rules so historical `recorded/.../runs/` directories are included. All 436 source/evidence entries were checked against the staged Git blobs before upload.
 - Retained the old repository unchanged; added repository history and provenance references instead of merging machine queues into the new release.
+
+## 2026-10-19 — English documentation and downstream scope
+
+- Replaced the non-English consistency audit with `AUDIT.md` and updated all document links and navigation labels to English.
+- Removed the README workflow diagram at the author's request.
+- Described the downstream calculations as component fragility probabilities and demand screening. Source attribution to FEMA P-58 parameters is retained where relevant; no complete FEMA P-58 assessment or loss-estimation capability is claimed.
+- Preserved computational code, configurations, numerical results and historical artifact names. Refreshed the package file inventory after the documentation changes.

@@ -2,7 +2,7 @@
 
 This directory organizes the experiments accompanying **Beyond Fixed-Grid Accuracy: Fourier Neural Operator Surrogates for Deployment-Oriented Seismic Response Assessment**. It was assembled against the manuscript sources recorded in `provenance/source_manifest.json` on 2026-10-19.
 
-The original repository files remain in the parent directory. Their `neuralop/` and `module/` implementations are used by the experiments here. Do not substitute a separately installed `neuralop` version. This is a reviewable release candidate: [PAPER_MAP.md](PAPER_MAP.md) maps claims to evidence; [AUDIT_ZH.md](AUDIT_ZH.md) identifies remaining manuscript and artifact issues.
+The original repository files remain in the parent directory. Their `neuralop/` and `module/` implementations are used by the experiments here. Do not substitute a separately installed `neuralop` version. This is a reviewable release candidate: [PAPER_MAP.md](PAPER_MAP.md) maps claims to evidence; [AUDIT.md](AUDIT.md) identifies remaining manuscript and artifact issues.
 
 ## Contents and evidence levels
 
@@ -12,7 +12,7 @@ The original repository files remain in the parent directory. Their `neuralop/` 
 | `6-code/O2-data-efficiency` | Ground-motion, amplitude-coefficient and joint scarcity |
 | `6-code/O3-generalization` | PGA extrapolation, classical records, sampling-rate transfer |
 | `6-code/O4-multi-structure` | Separate FNO training for six structural archetypes |
-| `6-code/O5-fema-p58` | Roof PFA, fragility, duration, FRS and period-band screening |
+| `6-code/O5-fema-p58` | Roof PFA, component fragility probabilities, duration, FRS and period-band screening |
 | `6-code/O7-revision/E1` | Synchronized inference latency and memory benchmark |
 | `6-code/O7-revision/E2` | Capacity and category-boundary sensitivity |
 | `6-code/O7-revision/E3` | HDF5 integrity and intensity coverage audit |
@@ -73,6 +73,10 @@ Historical result JSON/CSV files retain their original machine paths as provenan
 
 Scientific plotting helpers preserve the original numerical workflow. The final manuscript PDFs also received manual typography/label edits; exact pixel identity with those PDFs is not claimed. Legacy `FEM`/`fem` field names mean the NTHA reference and are retained to keep saved arrays readable; paper-facing terminology is **NTHA Result**.
 
+## Engineering scope
+
+The downstream implementation computes component fragility probabilities and selected-class sums, duration measures, and equipment-period demand screening. Component fragility parameters are attributed to their FEMA P-58 sources where documented; the implementation does not perform a complete FEMA P-58 assessment or estimate repair costs, downtime or losses. Historical `p58` paths identify these source-based component calculations.
+
 ## Release status
 
-Before calling this a complete public reproduction release, resolve the specific items in `AUDIT_ZH.md`: integrate the extra tuning results into the paper, link new trained weights and missing complete scarcity artifacts, settle parameter-count wording, and document the reference solver provenance and repository license. These items do not prevent checking the included numerical evidence today.
+Before calling this a complete public reproduction release, resolve the specific items in `AUDIT.md`: integrate the extra tuning results into the paper, link new trained weights and missing complete scarcity artifacts, settle parameter-count wording, and document the reference solver provenance and repository license. These items do not prevent checking the included numerical evidence today.

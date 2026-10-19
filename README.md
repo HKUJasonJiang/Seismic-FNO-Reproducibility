@@ -13,7 +13,7 @@ Code, experiment configurations, training records and numerical evidence accompa
 
 **Keywords:** Fourier Neural Operator · Operator Learning · Dynamic Response Prediction · Seismic Assessment · Nonstructural Components
 
-[Reproduction guide](paper_reproduction/README.md) · [Experiment recipes](paper_reproduction/RECIPES.md) · [Paper-to-code map](paper_reproduction/PAPER_MAP.md) · [Validation record](paper_reproduction/VALIDATION.md) · [中文核对报告](paper_reproduction/AUDIT_ZH.md)
+[Reproduction guide](paper_reproduction/README.md) · [Experiment recipes](paper_reproduction/RECIPES.md) · [Paper-to-code map](paper_reproduction/PAPER_MAP.md) · [Validation record](paper_reproduction/VALIDATION.md) · [Consistency audit](paper_reproduction/AUDIT.md)
 
 ## Research overview
 
@@ -21,20 +21,7 @@ Floor acceleration histories are needed to assess the seismic demands on acceler
 
 This study evaluates Fourier Neural Operators (**FNOs**) as surrogates that map a ground-motion acceleration history to the corresponding structural roof acceleration history. The central question is **when an FNO provides useful advantages for deployment**, considering prediction accuracy, computational cost, sampling-rate changes, limited training data and downstream engineering assessments.
 
-The evaluation starts with an FNO configuration study and a six-architecture benchmark. It then examines PGA extrapolation, external earthquake records, direct transfer between temporal sampling grids, and reduced training-data coverage. Finally, the same FNO architecture is trained separately for six reinforced-concrete structural archetypes, and its predictions are propagated into nonstructural assessment calculations.
-
-```mermaid
-flowchart LR
-    A[Ground-motion acceleration history] --> B[FNO surrogate]
-    B --> C[Predicted roof acceleration history]
-    C --> D[Peak floor acceleration]
-    C --> E[Acceleration-exceedance duration]
-    C --> F[Floor response spectra]
-    D --> G[FEMA P-58 fragility assessment]
-    F --> H[Equipment-period screening]
-```
-
-The surrogate outputs and derived engineering quantities are evaluated against the **NTHA reference results**.
+The evaluation starts with an FNO configuration study and a six-architecture benchmark. It then examines PGA extrapolation, external earthquake records, direct transfer between temporal sampling grids, and reduced training-data coverage. Finally, the same FNO architecture is trained separately for six reinforced-concrete structural archetypes, and its predictions are propagated into component-level fragility and demand-screening calculations.
 
 ## Study design
 
@@ -96,7 +83,9 @@ See the [sampling-resolution results](paper_reproduction/recorded/6-code/O3-gene
 - **Data scarcity:** FNO-Large degrades more smoothly than Transformer under severe reductions in ground-motion diversity, amplitude-level coverage and their combination. The held-out test set stays fixed across these comparisons.
 - **Inference cost:** on the recorded RTX 5090 benchmark at batch 64, BiLSTM has approximately 23 times the median inference latency and 12 times the peak allocated GPU memory of FNO-Large. These are architecture-cost measurements under the recorded benchmark settings.
 - **Structural archetypes:** separately trained FNO-Large models achieve time-history R² values of approximately 0.864–0.926 and PFA R² values of approximately 0.929–0.953 across the six archetypes.
-- **Engineering outputs:** predicted roof histories are used for FEMA P-58 fragility calculations, cumulative acceleration-exceedance durations, and 5%-damped floor response spectra for equipment-period screening.
+- **Engineering outputs:** predicted roof histories are used to calculate component fragility probabilities, cumulative acceleration-exceedance durations, and 5%-damped floor response spectra for equipment-period screening.
+
+The downstream scope is component-level fragility and demand screening. Repair-cost, downtime and loss estimation are outside this study.
 
 For the equipment-screening sensitivity study, capacities span 0.1–2.0 g in 0.05 g increments. Lower category boundaries span 2–25% and upper boundaries span 30–80%, both in one-percentage-point increments. Across this grid, NTHA- and FNO-based categories agree in **94.02–98.29%** of the aggregated band–capacity cases for each boundary pair. Short-period rigid-equipment cases close to a category boundary can differ and warrant reference NTHA verification.
 
@@ -108,7 +97,7 @@ The reproduction package includes the inference benchmark, capacity/category-bou
 
 For the configuration check, **54 screening runs** use 20 epochs and the same 19 amplitude levels. Each family's validation winner is then trained from initialization for **50 epochs using all 57 levels**. The six final runs preserve the accuracy ordering BiLSTM, Transformer, FNO, ResCNN1D, UNet1D and MLP. Their configurations, epoch logs and [final metrics](paper_reproduction/recorded/six_architecture_tuning.csv) are stored separately from the original paper benchmark.
 
-The checked manuscript snapshot describes tuning for the first three families; the additional three-family extension is retained for the manuscript update. The [consistency audit](paper_reproduction/AUDIT_ZH.md) records this distinction and the remaining items to align before release.
+The checked manuscript snapshot describes tuning for the first three families; the additional three-family extension is retained for the manuscript update. The [consistency audit](paper_reproduction/AUDIT.md) records this distinction and the remaining items to align before release.
 
 ## Repository layout
 
@@ -180,6 +169,6 @@ python paper_reproduction/fetch_assets.py data --list
 
 Saved evidence has been checked for complete epoch sequences, grouped-split integrity, validation-based candidate selection and agreement with the result summaries. CPU model checks and numerical downstream recomputations are documented in [VALIDATION.md](paper_reproduction/VALIDATION.md). These checks do not constitute a new GPU training run.
 
-Publication links for the new RoPE/tuned checkpoints, complete historical O2 checkpoint coverage, and the classical-record input/reference artifacts remain to be completed. The [artifact and manuscript audit](paper_reproduction/AUDIT_ZH.md) lists their status. The final public release will also specify the repository license and retain the relevant third-party notices.
+Publication links for the new RoPE/tuned checkpoints, complete historical O2 checkpoint coverage, and the classical-record input/reference artifacts remain to be completed. The [artifact and manuscript audit](paper_reproduction/AUDIT.md) lists their status. The final public release will also specify the repository license and retain the relevant third-party notices.
 
 This repository's **`main` branch** is the unified entry point for the revised-paper code. The [earlier development repository](https://github.com/HKUJasonJiang/Seismic-FNO) retains the original machine-specific history; the [consolidation record](docs/REPOSITORY_HISTORY.md) explains how its branches relate to this package.

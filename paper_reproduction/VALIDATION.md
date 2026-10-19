@@ -15,7 +15,7 @@ Validation date: 2026-10-19. These checks verify the curated package and saved e
 | Public GM/F6 files vs E5 historical source hashes | SHA256 matches for both files |
 | E2 capacity calculation from full FRS arrays | Original 1.0 g table reproduced within 1e-10 percentage points; four comparison CSVs match |
 | E2 boundary grid | CSV exactly matches the archived 1,224 boundary pairs; aggregate agreement 94.02%–98.29% |
-| O5 P-58 recomputation | All three archived CSVs match within 1e-10 |
+| O5 component-probability recomputation | All three archived CSVs match within 1e-10 |
 | O5 equipment screening with full 90-period FRS | Runs successfully; older placement outputs used a different grid and were excluded, rather than used as verification targets |
 | Lightweight original O1/O3 evidence download | 86 CSV/JSON files retrieved at the pinned dataset revision |
 

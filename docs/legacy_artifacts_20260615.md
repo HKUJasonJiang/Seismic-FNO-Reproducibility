@@ -1,6 +1,8 @@
 # SeFNO Paper Artifacts
 
-Last updated: 2026-06-15
+Historical artifact index: 2026-06-15
+
+Editorial note: downstream terminology is updated to describe component fragility and demand screening. Historical paths retain their original names.
 
 This repository branch records the code-side entry points for the paper artifact
 sync. Large model checkpoints and result bundles are kept in the Hugging Face
@@ -53,7 +55,7 @@ experiments/O5_fema_p58/2026-06-15_local_multistructure/
   `experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/`.
 - O4: six-structure FNO-Large checkpoints and manifest are available in
   `experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/`.
-- O5: downstream FEMA P-58 results reference O4 F10/FW10 checkpoints through
+- O5: downstream component-fragility results reference O4 F10/FW10 checkpoints through
   `6-code/O5-fema-p58/input/o4_artifacts/artifact_index.json`.
 
 ## Download Examples
@@ -83,7 +85,7 @@ hf download JasonXF/SeFNO \
 - O2 data efficiency: `6-code/O2-data-efficiency/scripts/`
 - O3 generalization: `6-code/O3-generalization/scripts/`
 - O4 multi-structure: `6-code/O4-multi-structure/scripts/`
-- O5 FEMA P-58 downstream assessment: `6-code/O5-fema-p58/scripts/`
+- O5 component fragility and demand screening: `6-code/O5-fema-p58/scripts/`
 
 Objective-specific README files under `6-code/O*/README.md` describe the paper
 role and local result layout.

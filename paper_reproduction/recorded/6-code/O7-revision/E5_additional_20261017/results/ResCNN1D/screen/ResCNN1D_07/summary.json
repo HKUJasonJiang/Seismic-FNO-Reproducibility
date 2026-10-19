@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "ResCNN1D",
+  "stage": "screen",
+  "trial_id": "ResCNN1D_07",
+  "best_val_mse": 0.1025499678048474,
+  "train_time_s": 24754.218105399515,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5_additional_20261017/results/ResCNN1D/screen/ResCNN1D_07/checkpoints/best.pt",
+  "params": {
+    "numel": 11550465,
+    "numel_m": 11.550465,
+    "real_params": 11550465,
+    "real_params_m": 11.550465,
+    "trainable": 11550465
+  },
+  "test_used_for_selection": false
+}

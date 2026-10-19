@@ -1,0 +1,5 @@
+structure_id,paper_label,scenario_id,scenario_label,source,n_records,n_components,expected_components_with_any_damage_mean,expected_components_with_any_damage_p50,expected_components_with_any_damage_p90,probability_at_least_one_component_damage_mean,probability_at_least_one_component_damage_p90
+F10,F-10,hospital,Hospital roof/top-floor acceleration-sensitive inventory,FEM,27018,5,1.16956650590344,1.1995583246396935,2.0211324771446817,0.688766110835245,0.9564786367317614
+F10,F-10,hospital,Hospital roof/top-floor acceleration-sensitive inventory,FNO,27018,5,1.1166722793934534,1.1833345565090179,1.924332913191896,0.670955445427031,0.9488388108553253
+FW10,FW-10,data_center,Data-center roof/top-floor acceleration-sensitive inventory,FEM,27018,6,0.9613319824686656,0.6940608957811193,2.430860313475625,0.33670521387800406,0.7829785442235259
+FW10,FW-10,data_center,Data-center roof/top-floor acceleration-sensitive inventory,FNO,27018,6,0.836358382144956,0.6346661127325839,2.0533802094176727,0.30431670266439426,0.7070373736477004

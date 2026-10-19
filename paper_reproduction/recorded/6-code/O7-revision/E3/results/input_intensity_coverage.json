@@ -1,0 +1,28 @@
+{
+  "g_ms2": 9.80665,
+  "n_samples": 198018,
+  "strict_exceedance": true,
+  "thresholds": [
+    {
+      "threshold_g": 0.5,
+      "threshold_ms2": 4.903325,
+      "n_exceeding": 96195,
+      "fraction": 0.4857891706814532,
+      "percent": 48.57891706814532
+    },
+    {
+      "threshold_g": 1.0,
+      "threshold_ms2": 9.80665,
+      "n_exceeding": 37388,
+      "fraction": 0.18881111818117544,
+      "percent": 18.881111818117546
+    },
+    {
+      "threshold_g": 1.5,
+      "threshold_ms2": 14.709975,
+      "n_exceeding": 19969,
+      "fraction": 0.10084436768374593,
+      "percent": 10.084436768374593
+    }
+  ]
+}

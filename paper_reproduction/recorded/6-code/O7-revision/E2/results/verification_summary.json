@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "direct_count_checks": 90,
+  "pdf_single_page_text_checked": 2,
+  "table11_reference_validation": "archived_table11_validation.csv",
+  "figures_visually_checked": "PNG and rendered PDF pages inspected by agent"
+}

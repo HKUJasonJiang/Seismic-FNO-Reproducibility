@@ -1,0 +1,16 @@
+{
+  "source_repository": "https://github.com/HKUJasonJiang/Seismic-FNO",
+  "source_code_base": "e8063eb67a497b35a8f5b8f96a26a19457bb38a1",
+  "latest_legacy_artifact_commit": "df60ca24d7d0e8991996e2f36de593ab4afbf2e2",
+  "remote_branch_snapshot": [
+    "origin/sync/paper-artifacts-20260615|df60ca24d7d0e8991996e2f36de593ab4afbf2e2|2026-06-15 15:42:50 +0800|Clarify O2 final artifact status",
+    "origin/sync/xgb1-o2-final|1fbde5f835fc12f065d6b08b650fdd906e8cb996|2026-06-15 06:45:18 +0000|Add final O2 data-efficiency results",
+    "origin/revise|13ca29af932e8329f30105360b79ffbefb95d8e7|2026-06-09 15:11:09 +0800|record-o2-xgb1-start",
+    "origin/sync/xgb1-o4|1911060b70092ea2cdc6325798c8d1898ea0ab8b|2026-06-09 06:46:50 +0000|sync-xgb1-o4-light-evidence",
+    "origin/sync/xgb2-o1-o3-o2partial|df6647291a69acbee51b83e5f4219d7f9834a528|2026-06-09 14:45:47 +0800|sync-xgb2-light-evidence",
+    "origin|e8063eb67a497b35a8f5b8f96a26a19457bb38a1|2026-03-05 19:00:09 +0800|Revise output path and enhance experiment instructions",
+    "origin/main|e8063eb67a497b35a8f5b8f96a26a19457bb38a1|2026-03-05 19:00:09 +0800|Revise output path and enhance experiment instructions"
+  ],
+  "o2_complete_table_matches_latest_artifact_branch": true,
+  "new_repository_purpose": "Curated paper reproduction; single main branch; historical records retained as provenance."
+}

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "family": "FNO",
+  "stage": "full",
+  "trial_id": "FNO_07",
+  "best_val_mse": 0.03963708798592551,
+  "train_time_s": 10891.951322266366,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/FNO/full/FNO_07/checkpoints/best.pt",
+  "params": {
+    "numel": 34018177,
+    "numel_m": 34.018177,
+    "real_params": 67703681,
+    "real_params_m": 67.703681,
+    "trainable": 34018177
+  },
+  "test_used_for_selection": false,
+  "test_same_grid": {
+    "mse": 0.04099572200889511,
+    "rmse": 0.20247400329152163,
+    "mae": 0.09848883597759672,
+    "r2": 0.9473015267043837,
+    "pfa_mse_g2": 0.0011431612387108295,
+    "pfa_rmse_g": 0.033810667528323506,
+    "pfa_mae_g": 0.020194269373138226,
+    "pfa_r2": 0.9569340802897863,
+    "seconds": 12.253461188171059
+  }
+}

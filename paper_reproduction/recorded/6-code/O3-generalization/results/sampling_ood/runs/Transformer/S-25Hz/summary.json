@@ -1,0 +1,16 @@
+{
+  "model": "Transformer",
+  "run_id": "S-25Hz",
+  "best_epoch": 50,
+  "best_val_mse": 0.022648437779595746,
+  "train_time_s": 11630.184648513794,
+  "peak_gpu_gb": 1.3688721656799316,
+  "best_checkpoint": "6-code/O3-generalization/results/sampling_ood/runs/Transformer/S-25Hz/checkpoints/Transformer_S-25Hz_best.pt",
+  "params": {
+    "numel": 7932175,
+    "numel_m": 7.932175,
+    "real_params": 7932175,
+    "real_params_m": 7.932175,
+    "trainable": 7932175
+  }
+}

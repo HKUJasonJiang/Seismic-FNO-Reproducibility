@@ -1,0 +1,196 @@
+{
+  "repo": "JasonXF/SeFNO",
+  "revision": "df5ed30ac6766021cd2bd273dd2638403b70fdab",
+  "checked_date": "2026-10-19",
+  "assets": [
+    {
+      "path": "MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+      "size": 4752434048,
+      "sha256": "62b008c1cf36053a6569634899d3efa1ba21dc42bfd0ee8f467143266d2b76ce",
+      "git_blob": "fdcbef32cc788405b54fc2d666c8eb23789c187e",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/MDOF/All_GMs/GMs_knet_3474_AF_57.h5"
+    },
+    {
+      "path": "MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st0.h5",
+      "size": 4754020264,
+      "sha256": "1587197aa1d73e5fce307652dfdc6ca7f0fb1a15042e1337f7a5c396d069aa48",
+      "git_blob": "68dff71657068282a43be8793be176bbb08295e2",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st0.h5"
+    },
+    {
+      "path": "MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st1.h5",
+      "size": 4754020264,
+      "sha256": "09a25da5fe940c37820117eb19c112e0a62f312059f641391d6ea1f431b4013f",
+      "git_blob": "d9ccff2c1dfdc340421b0b044adc26e843cead97",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st1.h5"
+    },
+    {
+      "path": "MDOF/knet-250/Data/fno/Blg_F14_42m_IM7_st1.h5",
+      "size": 4754020264,
+      "sha256": "6312293fa88baf1bd38b9c11cbb2130dc98cfeedb661bed9c462339f9d7dbc02",
+      "git_blob": "b8ab34ddc09ebc62f3ee9af8139cc860fa72ab67",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/MDOF/knet-250/Data/fno/Blg_F14_42m_IM7_st1.h5"
+    },
+    {
+      "path": "MDOF/knet-250/Data/fno/Blg_F17_52m_IM7_st1.h5",
+      "size": 4754020264,
+      "sha256": "6d37085ef83d5f2629312c8366cd6e1bb04e5d12a5e5be39f252f64e35e5eb81",
+      "git_blob": "1e1f2afefed0dbda8a1b33c813d05b6357494633",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/MDOF/knet-250/Data/fno/Blg_F17_52m_IM7_st1.h5"
+    },
+    {
+      "path": "MDOF/knet-250/Data/fno/Blg_F2_6m_IM7_st0.h5",
+      "size": 4754020264,
+      "sha256": "00bec2277cfb372d98e4f70aadcc1d55196c29b69db8ba47dd926f99ecbcf7b3",
+      "git_blob": "8e0c90feec83242b6e4625ab6705f0f357498b0e",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/MDOF/knet-250/Data/fno/Blg_F2_6m_IM7_st0.h5"
+    },
+    {
+      "path": "MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+      "size": 4754020264,
+      "sha256": "c848b55b161ffa9abbd6a9dea4d1c574784896725507a9cc2379757063cb3ce2",
+      "git_blob": "59d4713b27d3139d31b7b5bf40ba0d3e98d2bac2",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5"
+    },
+    {
+      "path": "experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/BiLSTM/checkpoints/BiLSTM_best.pt",
+      "size": 100940980,
+      "sha256": "4de6f5eb8d10c37f688d085fd4201a9b53c8abd5ce5417d52bb07c8f0cedcfbe",
+      "git_blob": "f5c1124252e0b6079ac87b25fa37441a9f3616d5",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/BiLSTM/checkpoints/BiLSTM_best.pt"
+    },
+    {
+      "path": "experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/FNO-Large-bs64/checkpoints/FNO-Large-bs64_best.pt",
+      "size": 203220487,
+      "sha256": "cee4bf3d1394136b6bcdeebf226a84566fe54b3ce12e97a317beb6b581a8745f",
+      "git_blob": "df6f4f19df76bc35d447e40eef78a1974fb7fcf0",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/FNO-Large-bs64/checkpoints/FNO-Large-bs64_best.pt"
+    },
+    {
+      "path": "experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/MLP/checkpoints/MLP_best.pt",
+      "size": 113345561,
+      "sha256": "43ec02ba9ffe8f2e3e2fa43bfac4469713648f4ebbb5022550e170c3ca1201f8",
+      "git_blob": "cebbdc12b2d00276c25b434e05143039af1d0bed",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/MLP/checkpoints/MLP_best.pt"
+    },
+    {
+      "path": "experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/ResCNN1D/checkpoints/ResCNN1D_best.pt",
+      "size": 88398415,
+      "sha256": "6d715f8c6caa8c6ae8b2def83f10a427f66b320c54ba8b6fe916e80655b8e7fe",
+      "git_blob": "d23a09c544924aa0f3c7428894202fe4e52f8acf",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/ResCNN1D/checkpoints/ResCNN1D_best.pt"
+    },
+    {
+      "path": "experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/Transformer/checkpoints/Transformer_best.pt",
+      "size": 95654609,
+      "sha256": "f5ee2f3177b82ec5401367d9f444f78b2effaa33d92dd978e182899332b9fd8c",
+      "git_blob": "15e8049e95bc648a768e1ff4a38948bd52d0b8e7",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/Transformer/checkpoints/Transformer_best.pt"
+    },
+    {
+      "path": "experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/UNet1D/checkpoints/UNet1D_best.pt",
+      "size": 94345747,
+      "sha256": "770468b759369664d63f357def60f0d47cb3029d66dacf13a0c5d4971b6bdd3d",
+      "git_blob": "26f2d7eaad2bc01cec1b107551ba15440503c898",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O1_baseline/2026-06-09_xgb2_full_bs64/artifact/runs/UNet1D/checkpoints/UNet1D_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/pga_ood/runs/FNO-Large/PGA-1to10/checkpoints/FNO-Large_PGA-1to10_best.pt",
+      "size": 203222341,
+      "sha256": "b9a81b945b7af20c299d5af184a8b6882aaa5d655b16614fd099f09701b814ab",
+      "git_blob": "bc1cd1939d9a81bc652d2a64acf149385b51a81c",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/pga_ood/runs/FNO-Large/PGA-1to10/checkpoints/FNO-Large_PGA-1to10_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/pga_ood/runs/Transformer/PGA-1to10/checkpoints/Transformer_PGA-1to10_best.pt",
+      "size": 95660149,
+      "sha256": "89870345878d3a72e24ac877f6b5ceb295bceee98b7459a3bb2ed1cd1e79ebb6",
+      "git_blob": "f397713aef96aa8a3833f2594900834b84674fa7",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/pga_ood/runs/Transformer/PGA-1to10/checkpoints/Transformer_PGA-1to10_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/FNO-Large/S-20Hz/checkpoints/FNO-Large_S-20Hz_best.pt",
+      "size": 203221459,
+      "sha256": "30899f9ad9f0dd9752b99f263be44f7b8eaa6623dc3458ea0e16d69c311168af",
+      "git_blob": "f4732b8443c5c2d39ccbc9c02760a5d2c19260f0",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/FNO-Large/S-20Hz/checkpoints/FNO-Large_S-20Hz_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/FNO-Large/S-25Hz/checkpoints/FNO-Large_S-25Hz_best.pt",
+      "size": 203221459,
+      "sha256": "29b60213472e893c58f0a5172229d82dbe9001bf09a3a3341e038e55b3b9ab8a",
+      "git_blob": "04253e38d4bf93a147ae9af6bd1786d32536eca3",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/FNO-Large/S-25Hz/checkpoints/FNO-Large_S-25Hz_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/FNO-Large/S-50Hz/checkpoints/FNO-Large_S-50Hz_best.pt",
+      "size": 203221459,
+      "sha256": "47d8dec09bd8b9048b453e41a5b38dada55b69a1b2183f37cc80dac522691799",
+      "git_blob": "ae81828f9142c66b5936a4a32c112c2c9936d603",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/FNO-Large/S-50Hz/checkpoints/FNO-Large_S-50Hz_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/Transformer/S-20Hz/checkpoints/Transformer_S-20Hz_best.pt",
+      "size": 95290007,
+      "sha256": "ee30e98f3b257f79bce220225279a726e563e15c56c82b7b79b0b7bccec9c8db",
+      "git_blob": "b0558e06f17ccdd0853c76633bb96f7dab412b19",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/Transformer/S-20Hz/checkpoints/Transformer_S-20Hz_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/Transformer/S-25Hz/checkpoints/Transformer_S-25Hz_best.pt",
+      "size": 95351447,
+      "sha256": "8b169e8f8c058aa5e3e530b10977e05f7e91ff78ea37a71880a4e627c5184d74",
+      "git_blob": "658f3d4a3539d3a4e36d729ac41e474e6f781741",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/Transformer/S-25Hz/checkpoints/Transformer_S-25Hz_best.pt"
+    },
+    {
+      "path": "experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/Transformer/S-50Hz/checkpoints/Transformer_S-50Hz_best.pt",
+      "size": 95658647,
+      "sha256": "cce6242bbfa6d812c1d8e9b7b4e3cd8979fe696efc24c86d77a74d79053856b9",
+      "git_blob": "f5ee98303925e6d94afc5e112ffeac4d9294a23a",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O3_generalization/2026-06-09_xgb2_pga_sampling_gmood/artifact/sampling_ood/runs/Transformer/S-50Hz/checkpoints/Transformer_S-50Hz_best.pt"
+    },
+    {
+      "path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F10/checkpoints/FNO-Large_F10_best.pt",
+      "size": 203221345,
+      "sha256": "94e9c77259911303d3589718cf0e3b197d332fb544c0225b788ac98f236fcf9d",
+      "git_blob": "0a5845a52e4334a1e7f79b6d9b35f844c65d4774",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F10/checkpoints/FNO-Large_F10_best.pt"
+    },
+    {
+      "path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F2/checkpoints/FNO-Large_F2_best.pt",
+      "size": 203220731,
+      "sha256": "b3612427c51d15cb99346389bd880196cd73aba60494ac398e7a6fbd3ef91569",
+      "git_blob": "a6795d35aec983521da77e79feba13fddb33bc9d",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F2/checkpoints/FNO-Large_F2_best.pt"
+    },
+    {
+      "path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F6/checkpoints/FNO-Large_F6_best.pt",
+      "size": 203220731,
+      "sha256": "9e08fb918af436ff37f8dc5da6056e60f737877ec6df7c982df3c1c9004b0bda",
+      "git_blob": "7a388da17fa7eb2d55b0502036f4a6f903683ea1",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F6/checkpoints/FNO-Large_F6_best.pt"
+    },
+    {
+      "path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW10/checkpoints/FNO-Large_FW10_best.pt",
+      "size": 203221703,
+      "sha256": "a2226ee611d5259e105bb83ff3f8a52fd6454e09bbc90c46958763b59dd3889b",
+      "git_blob": "8265547f985151cd5476c0a75e2664c9183e82cf",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW10/checkpoints/FNO-Large_FW10_best.pt"
+    },
+    {
+      "path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW14/checkpoints/FNO-Large_FW14_best.pt",
+      "size": 203221703,
+      "sha256": "9452b2ccd88e4557684da6357941e4ab5885b4bc611ad2f7e5d65023719fe3a0",
+      "git_blob": "42e3616f694766e9ef4d844c0931256a9684806d",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW14/checkpoints/FNO-Large_FW14_best.pt"
+    },
+    {
+      "path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW17/checkpoints/FNO-Large_FW17_best.pt",
+      "size": 203221703,
+      "sha256": "48bc3c6229c6a5257c63c4aed7f949578db4dcc23ef3ed0d6a2531084ce0b96a",
+      "git_blob": "088968b7a93b1ff4f30dfc411eb7c67189cae40f",
+      "url": "https://huggingface.co/datasets/JasonXF/SeFNO/resolve/df5ed30ac6766021cd2bd273dd2638403b70fdab/experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW17/checkpoints/FNO-Large_FW17_best.pt"
+    }
+  ]
+}

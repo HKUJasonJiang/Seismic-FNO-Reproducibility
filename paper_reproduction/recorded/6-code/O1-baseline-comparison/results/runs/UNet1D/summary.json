@@ -1,0 +1,14 @@
+{
+  "model": "UNet1D",
+  "best_val_mse": 0.2145316383596796,
+  "train_time_s": 8155.616280555725,
+  "peak_gpu_gb": 3.032552719116211,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/runs/UNet1D/checkpoints/UNet1D_best.pt",
+  "params": {
+    "numel": 7848321,
+    "numel_m": 7.848321,
+    "real_params": 7848321,
+    "real_params_m": 7.848321,
+    "trainable": 7848321
+  }
+}

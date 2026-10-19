@@ -1,0 +1,36 @@
+[
+  {
+    "model": "FNO-Large",
+    "run_id": "S-25Hz",
+    "checkpoint": "6-code/O3-generalization/results/sampling_ood/runs/FNO-Large/S-25Hz/checkpoints/FNO-Large_S-25Hz_best.pt",
+    "best_epoch": 21,
+    "best_val_mse": 0.04395853563453719,
+    "train_time_s": 11276.183721542358,
+    "peak_gpu_gb": 1.774263858795166,
+    "best_checkpoint": "6-code/O3-generalization/results/sampling_ood/runs/FNO-Large/S-25Hz/checkpoints/FNO-Large_S-25Hz_best.pt",
+    "params": {
+      "numel": 8505793,
+      "numel_m": 8.505793,
+      "real_params": 16927169,
+      "real_params_m": 16.927169,
+      "trainable": 8505793
+    },
+    "numel": 8505793,
+    "numel_m": 8.505793,
+    "real_params": 16927169,
+    "real_params_m": 16.927169,
+    "trainable": 8505793,
+    "mse": 0.04869188326308214,
+    "rmse": 0.22066237391789778,
+    "mae": 0.10922795235516214,
+    "r2": 0.9374083981422247,
+    "pfa_mse_g2": 0.0011903553604373695,
+    "pfa_rmse_g": 0.034501526929070395,
+    "pfa_mae_g": 0.021404075286347628,
+    "pfa_r2": 0.9551561523927896,
+    "loss": 0.04881982856273792,
+    "spectral_log_mse": 0.40893435048437005,
+    "high_freq_log_mse": 0.4790718436029786,
+    "latency_ms_per_sample": 0.1436423510313034
+  }
+]

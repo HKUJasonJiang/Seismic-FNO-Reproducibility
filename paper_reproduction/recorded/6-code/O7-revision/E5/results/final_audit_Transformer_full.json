@@ -1,0 +1,730 @@
+{
+  "family": "Transformer",
+  "stage": "full",
+  "audit_mode": "CPU/read-only; no model forward, no GPU evaluation or training",
+  "started_unix": 1791983325.1741257,
+  "host": "xg-boost-lab-container",
+  "checks": [
+    {
+      "name": "completed_final_identity",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "frozen_final_config",
+      "status": "pass",
+      "detail": {
+        "expected": {
+          "seed": 42,
+          "epochs": 50,
+          "batch": 64,
+          "precision": "fp32",
+          "tf32": false,
+          "grad_clip": 1.0,
+          "scheduler_step": 20,
+          "seq_len": 3000
+        },
+        "observed": {
+          "seed": 42,
+          "epochs": 50,
+          "batch": 64,
+          "precision": "fp32",
+          "tf32": false,
+          "grad_clip": 1.0,
+          "scheduler_step": 20,
+          "seq_len": 3000
+        }
+      }
+    },
+    {
+      "name": "all_50_epochs_contiguous",
+      "status": "pass",
+      "detail": 50
+    },
+    {
+      "name": "50_epoch_values_finite",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "fixed_learning_rate_schedule",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "summary_uses_best_validation",
+      "status": "pass",
+      "detail": {
+        "best_epoch": 42,
+        "best_val_mse": 0.019618811819214106
+      }
+    },
+    {
+      "name": "logged_training_time_matches_summary",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "nine_feasible_unique_candidates",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "screen_Transformer_00",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.0399206246145148,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_01",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.09046904376827486,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_02",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.12400704004477339,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_03",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.036204162818953306,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_04",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.032667977855303135,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_05",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.11473756944444445,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_06",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.04512442684062043,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_07",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.03143732713844344,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "screen_Transformer_08",
+      "status": "pass",
+      "detail": {
+        "best_val_mse": 0.10660509173119974,
+        "source_host": "xg-boost-lab-container",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+        "script_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+      }
+    },
+    {
+      "name": "all_nine_screen_terminal",
+      "status": "pass",
+      "detail": {
+        "completed": 9,
+        "failed": 0
+      }
+    },
+    {
+      "name": "validation_selection_matches_all_nine",
+      "status": "pass",
+      "detail": {
+        "independent_selected": "Transformer_07",
+        "selection_terminal_count": 9
+      }
+    },
+    {
+      "name": "all_split_array_hashes",
+      "status": "pass",
+      "detail": {
+        "train_gms": "6a36f348176c123c7af4d129563254d71ea8ae3c30cd1cc682517b90506e96be",
+        "val_gms": "ed3c4e45f8b47d0fff62867e803f15a91acee46978f566f0e61fc4af84bca9eb",
+        "test_gms": "759a8ef5a19b103081315ded3ef64b6999824186ba352671ed1df805c7d5a1e8",
+        "screen_train": "c97a9a395c84659c3b76fdf4b0e0a217b99ef8e61718f40479e31cad52b2a46b",
+        "screen_val": "7fb4a8006eb0d8abc8c9e250029f843b32f2fcd4bf8ef14a6741087e31b4a661",
+        "full_train": "0fe8b0c8bf498f51e34a1363c306f8dfb1dd2b7746e78c4ee1b93de00f737a73",
+        "full_val": "61cd739dc5a2095f66e0286b61448674ed6436eaf1aad6c355afd7666ff80ed5",
+        "test": "a999faa3a67f75cb3442cac3670961ae04ceb574d181bbc82d9b76e7b18ce367"
+      }
+    },
+    {
+      "name": "source_record_groups_disjoint",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "fixed_expected_sample_counts",
+      "status": "pass",
+      "detail": {
+        "train": 136800,
+        "validation": 34200,
+        "test": 27018
+      }
+    },
+    {
+      "name": "test_all_57_scales_and_no_duplicate",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "cache_manifest_matches_training_snapshot",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "x50_shape_float32",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "x50_current_cache_sha256",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "y50_shape_float32",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "y50_current_cache_sha256",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "exact_recorded_training_source_resolved",
+      "status": "pass",
+      "detail": {
+        "recorded_sha256": "6ccc5463a7fa120f046c2a48df19e9cc01ea4defe7a1f311e63f14ab09e7c849",
+        "resolved": {
+          "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/source_versions/train_candidate_6ccc5463.py",
+          "sha256": "6ccc5463a7fa120f046c2a48df19e9cc01ea4defe7a1f311e63f14ab09e7c849",
+          "training_core_ast_sha256": "59f16126d9ac5daf14e448490e47cc4a1fc86d1d1f3877ff33d723ca077559a3"
+        }
+      }
+    },
+    {
+      "name": "training_algorithm_ast_matches_pretraining_source",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "recorded_torch_version_matches_actual_import",
+      "status": "pass",
+      "detail": {
+        "recorded": "2.12.0+cu130",
+        "actual": "2.12.0+cu130"
+      }
+    },
+    {
+      "name": "baseline_models_matches_prior_source_hash",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "metrics_matches_prior_source_hash",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "splits_matches_prior_source_hash",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "best_config_matches_saved_config",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "best_all_state_tensors_finite",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "last_config_matches_saved_config",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "last_all_state_tensors_finite",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "best_checkpoint_epoch_is_first_validation_minimum",
+      "status": "pass",
+      "detail": {
+        "best_checkpoint_epoch": 42,
+        "best_logged_epoch": 42,
+        "metrics": {
+          "mse": 0.019618811819214106,
+          "rmse": 0.1400671689555197,
+          "mae": 0.061958344664694506,
+          "r2": 0.975204485993268,
+          "pfa_mse_g2": 0.0004888725158491591,
+          "pfa_rmse_g": 0.022110461683310892,
+          "pfa_mae_g": 0.013782783714477082,
+          "pfa_r2": 0.9815291830028184,
+          "seconds": 6.141029939986765
+        }
+      }
+    },
+    {
+      "name": "last_checkpoint_completed_epoch50",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "last_checkpoint_recovery_state_complete",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "optimizer_scheduler_protocol",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "actual_cpu_parameter_count_and_state_shape",
+      "status": "pass",
+      "detail": {
+        "numel": 11116815,
+        "numel_m": 11.116815,
+        "real_params": 11116815,
+        "real_params_m": 11.116815,
+        "trainable": 11116815
+      }
+    },
+    {
+      "name": "test_same_grid_metrics_finite",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "test_same_grid_rmse_mse_consistent",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "default_zero_batch_limit_in_source",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "test_same_grid_r2_consistent_with_cpu_reference_moments",
+      "status": "pass",
+      "detail": {
+        "reconstructed_r2": 0.9751498631677569,
+        "reconstructed_pfa_r2": 0.9806344491465421
+      }
+    }
+  ],
+  "evidence": {
+    "artifact_hashes": {
+      "configs/protocol.json": "a3aad0c3e75240fba8015bfddae60b78af439142ecccc15ed552da76dc8ed076",
+      "configs/search_space.json": "c48bcb4078e9a69fc2e80a09819dbda740dafc3365afa6e81eaca3ef3c1b798e",
+      "configs/frozen_splits.npz": "e88e306df983ac16b5c4e88c04524e2d16535484fbb69ee4d43511f79973c7bc",
+      "results/Transformer/selection.json": "884644a85706dcb7c7009bdeeb3a4408244bc5d97a075d1ea40750c452a145b6",
+      "results/Transformer/full/Transformer_07/config.json": "c8201a2c9bf9a1158caa6d41f3b46c973c8d1382966d1f23460969666da3a0c6",
+      "results/Transformer/full/Transformer_07/summary.json": "1f39fb7b4f64c4e3373bae49b8cbaa47c2429b8c01e9d6abc6ae089ae933e9fc",
+      "results/Transformer/full/Transformer_07/training_log.csv": "d21acb8af1e87589c0641b80d85d733f056f2da1221249a65c8c48f32d627b2a"
+    },
+    "final_config": {
+      "host": "xg-boost-lab-container",
+      "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+      "torch": "2.12.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+      "device_total_gib": 94.97021484375,
+      "seed": 42,
+      "tf32": false,
+      "precision": "fp32",
+      "stage": "full",
+      "candidate": {
+        "trial_id": "Transformer_07",
+        "original": false,
+        "lr": 0.001,
+        "d_model": 256,
+        "n_layers": 14,
+        "patch_size": 15
+      },
+      "architecture": {
+        "d_model": 256,
+        "n_layers": 14,
+        "patch_size": 15
+      },
+      "seq_len": 3000,
+      "epochs": 50,
+      "batch": 64,
+      "grad_clip": 1.0,
+      "scheduler_step": 20,
+      "params": {
+        "numel": 11116815,
+        "numel_m": 11.116815,
+        "real_params": 11116815,
+        "real_params_m": 11.116815,
+        "trainable": 11116815
+      },
+      "script_sha256": "6ccc5463a7fa120f046c2a48df19e9cc01ea4defe7a1f311e63f14ab09e7c849",
+      "protocol_sha256": "a3aad0c3e75240fba8015bfddae60b78af439142ecccc15ed552da76dc8ed076",
+      "cache_manifest": {
+        "files": {
+          "x50": {
+            "source": "/data/home/jason/data/SesimicTransformerData/MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+            "dataset": "Acc_GMs",
+            "source_shape": [
+              198018,
+              3000
+            ],
+            "source_dtype": "float64",
+            "source_size": 4752434048,
+            "source_mtime": 1780539628.324488,
+            "cache": "6-code/O7-revision/E5/cache/x50.npy",
+            "cache_sha256": "bc2f463735bbe4827fbe8d95580fe67f27a88d8c078bf091a5167a2794dc56e1",
+            "source_sha256": "62b008c1cf36053a6569634899d3efa1ba21dc42bfd0ee8f467143266d2b76ce"
+          },
+          "y50": {
+            "source": "/data/home/jason/data/SesimicTransformerData/MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+            "dataset": "Acc_Floor_Response",
+            "source_shape": [
+              198018,
+              3000
+            ],
+            "source_dtype": "float64",
+            "source_size": 4754020264,
+            "source_mtime": 1780539634.1515534,
+            "cache": "6-code/O7-revision/E5/cache/y50.npy",
+            "cache_sha256": "1693ebe45a64f3d384590ddf99b876b742b0afba22cb199921db13777fa1d741",
+            "source_sha256": "c848b55b161ffa9abbd6a9dea4d1c574784896725507a9cc2379757063cb3ce2"
+          }
+        },
+        "conversion": "float64 or native HDF5 -> float32 identical to torch.from_numpy(...).float()",
+        "created_unix": 1791969433.9939601
+      }
+    },
+    "final_summary": {
+      "status": "complete",
+      "family": "Transformer",
+      "stage": "full",
+      "trial_id": "Transformer_07",
+      "best_val_mse": 0.019618811819214106,
+      "train_time_s": 5022.809343429282,
+      "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/full/Transformer_07/checkpoints/best.pt",
+      "params": {
+        "numel": 11116815,
+        "numel_m": 11.116815,
+        "real_params": 11116815,
+        "real_params_m": 11.116815,
+        "trainable": 11116815
+      },
+      "test_used_for_selection": false,
+      "test_same_grid": {
+        "mse": 0.019331666329736097,
+        "rmse": 0.13903836279867546,
+        "mae": 0.061553107095028856,
+        "r2": 0.9751498631584945,
+        "pfa_mse_g2": 0.0005140478963837457,
+        "pfa_rmse_g": 0.02267262438236354,
+        "pfa_mae_g": 0.01417176081083433,
+        "pfa_r2": 0.9806344506066073,
+        "seconds": 4.8380437679588795
+      }
+    },
+    "screening_scores": [
+      {
+        "trial": "Transformer_00",
+        "best_val_mse": 0.0399206246145148
+      },
+      {
+        "trial": "Transformer_01",
+        "best_val_mse": 0.09046904376827486
+      },
+      {
+        "trial": "Transformer_02",
+        "best_val_mse": 0.12400704004477339
+      },
+      {
+        "trial": "Transformer_03",
+        "best_val_mse": 0.036204162818953306
+      },
+      {
+        "trial": "Transformer_04",
+        "best_val_mse": 0.032667977855303135
+      },
+      {
+        "trial": "Transformer_05",
+        "best_val_mse": 0.11473756944444445
+      },
+      {
+        "trial": "Transformer_06",
+        "best_val_mse": 0.04512442684062043
+      },
+      {
+        "trial": "Transformer_07",
+        "best_val_mse": 0.03143732713844344
+      },
+      {
+        "trial": "Transformer_08",
+        "best_val_mse": 0.10660509173119974
+      }
+    ],
+    "screening_failed": [],
+    "sample_counts_from_frozen_split": {
+      "train": 136800,
+      "validation": 34200,
+      "test": 27018
+    },
+    "cache_files": {
+      "x50": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/cache/x50.npy",
+        "shape": [
+          198018,
+          3000
+        ],
+        "dtype": "float32",
+        "manifest_cache_sha256": "bc2f463735bbe4827fbe8d95580fe67f27a88d8c078bf091a5167a2794dc56e1",
+        "manifest_source_sha256": "62b008c1cf36053a6569634899d3efa1ba21dc42bfd0ee8f467143266d2b76ce",
+        "recomputed_cache_sha256": "bc2f463735bbe4827fbe8d95580fe67f27a88d8c078bf091a5167a2794dc56e1"
+      },
+      "y50": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/cache/y50.npy",
+        "shape": [
+          198018,
+          3000
+        ],
+        "dtype": "float32",
+        "manifest_cache_sha256": "1693ebe45a64f3d384590ddf99b876b742b0afba22cb199921db13777fa1d741",
+        "manifest_source_sha256": "c848b55b161ffa9abbd6a9dea4d1c574784896725507a9cc2379757063cb3ce2",
+        "recomputed_cache_sha256": "1693ebe45a64f3d384590ddf99b876b742b0afba22cb199921db13777fa1d741"
+      }
+    },
+    "source_versions": {
+      "recorded_training_sha256": "6ccc5463a7fa120f046c2a48df19e9cc01ea4defe7a1f311e63f14ab09e7c849",
+      "current_sha256": "fd9687de2dc70ac7df2936a5c03138698a905fdbc92b49c25c5e4b07a63fa9a3",
+      "resolved": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/source_versions/train_candidate_6ccc5463.py",
+        "sha256": "6ccc5463a7fa120f046c2a48df19e9cc01ea4defe7a1f311e63f14ab09e7c849",
+        "training_core_ast_sha256": "59f16126d9ac5daf14e448490e47cc4a1fc86d1d1f3877ff33d723ca077559a3"
+      },
+      "archives": [
+        {
+          "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/scripts/train_candidate.py",
+          "sha256": "fd9687de2dc70ac7df2936a5c03138698a905fdbc92b49c25c5e4b07a63fa9a3",
+          "training_core_ast_sha256": "59f16126d9ac5daf14e448490e47cc4a1fc86d1d1f3877ff33d723ca077559a3"
+        },
+        {
+          "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/source_versions/train_candidate_33819b82.py",
+          "sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb",
+          "training_core_ast_sha256": "59f16126d9ac5daf14e448490e47cc4a1fc86d1d1f3877ff33d723ca077559a3"
+        },
+        {
+          "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/source_versions/train_candidate_6ccc5463.py",
+          "sha256": "6ccc5463a7fa120f046c2a48df19e9cc01ea4defe7a1f311e63f14ab09e7c849",
+          "training_core_ast_sha256": "59f16126d9ac5daf14e448490e47cc4a1fc86d1d1f3877ff33d723ca077559a3"
+        }
+      ],
+      "archive_provenance": {
+        "6ccc5463": {
+          "sha256": "6ccc5463a7fa120f046c2a48df19e9cc01ea4defe7a1f311e63f14ab09e7c849",
+          "provenance": "reconstructed by reversing two recorded delegation-guard patches from current source; exact recorded training hash matched, not a contemporaneously preserved original file"
+        },
+        "33819b82": {
+          "sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb",
+          "provenance": "extracted read-only from pre-training e5_code_bundle.tar.gz"
+        }
+      }
+    },
+    "actual_audit_imports": {
+      "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+      "executable": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/.venv/bin/python",
+      "packages": {
+        "torch": {
+          "distribution_version": "2.12.0",
+          "actual_import_path": "/data/home/jason/miniconda3/envs/sefno/lib/python3.12/site-packages/torch/__init__.py",
+          "actual_module_version": "2.12.0+cu130"
+        },
+        "numpy": {
+          "distribution_version": "2.4.6",
+          "actual_import_path": "/home/jason/.local/lib/python3.12/site-packages/numpy/__init__.py",
+          "actual_module_version": "2.4.6"
+        },
+        "scipy": {
+          "distribution_version": "1.17.1",
+          "actual_import_path": "/home/jason/.local/lib/python3.12/site-packages/scipy/__init__.py",
+          "actual_module_version": "1.17.1"
+        },
+        "h5py": {
+          "distribution_version": "3.16.0",
+          "actual_import_path": "/data/home/jason/miniconda3/envs/sefno/lib/python3.12/site-packages/h5py/__init__.py",
+          "actual_module_version": "3.16.0"
+        },
+        "tensorly": {
+          "distribution_version": "0.9.0",
+          "actual_import_path": "/data/home/jason/miniconda3/envs/sefno/lib/python3.12/site-packages/tensorly/__init__.py",
+          "actual_module_version": "0.9.0"
+        },
+        "tensorly-torch": {
+          "distribution_version": "0.5.0",
+          "actual_import_path": "/data/home/jason/miniconda3/envs/sefno/lib/python3.12/site-packages/tltorch/__init__.py",
+          "actual_module_version": "0.5.0"
+        },
+        "opt_einsum": {
+          "distribution_version": "3.4.0",
+          "actual_import_path": "/data/home/jason/miniconda3/envs/sefno/lib/python3.12/site-packages/opt_einsum/__init__.py",
+          "actual_module_version": "3.4.0"
+        },
+        "scikit-learn": {
+          "distribution_version": "1.9.0",
+          "actual_import_path": "/data/home/jason/miniconda3/envs/sefno/lib/python3.12/site-packages/sklearn/__init__.py",
+          "actual_module_version": "1.9.0"
+        }
+      },
+      "model_modules": {
+        "baseline_models": {
+          "path": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/scripts/baseline_models.py",
+          "sha256": "79c72bf6010a970170fd1828f5e4c8e7c6e1365dafd14fd48eb4a2e44c47b57f",
+          "normalized_lf_sha256": "79c72bf6010a970170fd1828f5e4c8e7c6e1365dafd14fd48eb4a2e44c47b57f"
+        },
+        "metrics": {
+          "path": "/data/home/jason/Seismic-FNO/6-code/shared/utils/metrics.py",
+          "sha256": "263d3b7299a06ddcaed01f100a338ad4c4719a061349e5aa52cf91494b615775",
+          "normalized_lf_sha256": "263d3b7299a06ddcaed01f100a338ad4c4719a061349e5aa52cf91494b615775"
+        },
+        "splits": {
+          "path": "/data/home/jason/Seismic-FNO/6-code/shared/utils/splits.py",
+          "sha256": "7c7962cc19f004cca6e0e6424f0a142d635d2d70e295436c50ef358cb7cc0918",
+          "normalized_lf_sha256": "7c7962cc19f004cca6e0e6424f0a142d635d2d70e295436c50ef358cb7cc0918"
+        }
+      }
+    },
+    "prior_environment_snapshot": {
+      "host": "xg-boost-lab-container",
+      "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+      "packages": {
+        "torch": "2.12.0",
+        "numpy": "2.4.6",
+        "scipy": "1.17.1",
+        "h5py": "3.16.0",
+        "tensorly": "0.9.0",
+        "tensorly-torch": "0.5.0",
+        "opt_einsum": "3.4.0",
+        "scikit-learn": "1.9.0"
+      },
+      "source_hashes": {
+        "6-code/O1-baseline-comparison/scripts/baseline_models.py": {
+          "raw_sha256": "79c72bf6010a970170fd1828f5e4c8e7c6e1365dafd14fd48eb4a2e44c47b57f",
+          "normalized_lf_sha256": "79c72bf6010a970170fd1828f5e4c8e7c6e1365dafd14fd48eb4a2e44c47b57f"
+        },
+        "neuralop/models/fno.py": {
+          "raw_sha256": "e34b6b3e5907cd81f1ff8fb7a3a27d5b88fc4bf6f497ccf3607b65b122b72c68",
+          "normalized_lf_sha256": "e34b6b3e5907cd81f1ff8fb7a3a27d5b88fc4bf6f497ccf3607b65b122b72c68"
+        },
+        "neuralop/layers/spectral_convolution.py": {
+          "raw_sha256": "ef5f05ee6841e23c9aa04a7ef2b59c2f75dc56b51efa7e06ecd254c5c45bc6a7",
+          "normalized_lf_sha256": "ef5f05ee6841e23c9aa04a7ef2b59c2f75dc56b51efa7e06ecd254c5c45bc6a7"
+        },
+        "6-code/shared/utils/metrics.py": {
+          "raw_sha256": "263d3b7299a06ddcaed01f100a338ad4c4719a061349e5aa52cf91494b615775",
+          "normalized_lf_sha256": "263d3b7299a06ddcaed01f100a338ad4c4719a061349e5aa52cf91494b615775"
+        },
+        "6-code/shared/utils/splits.py": {
+          "raw_sha256": "7c7962cc19f004cca6e0e6424f0a142d635d2d70e295436c50ef358cb7cc0918",
+          "normalized_lf_sha256": "7c7962cc19f004cca6e0e6424f0a142d635d2d70e295436c50ef358cb7cc0918"
+        },
+        "6-code/O7-revision/E5/scripts/train_candidate.py": {
+          "raw_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb",
+          "normalized_lf_sha256": "33819b822548ee5cb10173b7dee811ea478158cd654b506b6d7482ca0ce5f8cb"
+        },
+        "6-code/O7-revision/E5/configs/protocol.json": {
+          "raw_sha256": "a3aad0c3e75240fba8015bfddae60b78af439142ecccc15ed552da76dc8ed076",
+          "normalized_lf_sha256": "a3aad0c3e75240fba8015bfddae60b78af439142ecccc15ed552da76dc8ed076"
+        },
+        "6-code/O7-revision/E5/configs/search_space.json": {
+          "raw_sha256": "c48bcb4078e9a69fc2e80a09819dbda740dafc3365afa6e81eaca3ef3c1b798e",
+          "normalized_lf_sha256": "c48bcb4078e9a69fc2e80a09819dbda740dafc3365afa6e81eaca3ef3c1b798e"
+        }
+      }
+    },
+    "checkpoint_hashes": {
+      "best": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/full/Transformer_07/checkpoints/best.pt",
+        "size": 44522616,
+        "sha256": "04c1318585e6eaf7f385175501906bbc4b5a55a0b985d1c9696eb9d6765c4c32"
+      },
+      "last": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/full/Transformer_07/checkpoints/last.pt",
+        "size": 133595407,
+        "sha256": "e12b20bc9659a2eba9b4ac850b7f97991bcf43f4b1dafa3a2ef2b907b6e480d7"
+      }
+    },
+    "test_count_provenance": {
+      "expected_samples": 27018,
+      "expected_scalar_targets": 81054000,
+      "expected_batches": 423,
+      "direct_saved_counter": null,
+      "method": "Frozen test indices plus saved training source and final-queue command without max-batches; no test prediction rerun"
+    },
+    "cpu_reference_moments": {
+      "50": {
+        "samples": 27018,
+        "scalars": 81054000,
+        "variance": 0.7779299752045309,
+        "pfa_variance": 0.02654445000163555
+      }
+    }
+  },
+  "limitations": [
+    "Exact training source6ccc5463 was reconstructed by reversing two recorded guard-only patches; SHA256 matches the recorded training hash. It was not an originally retained contemporaneous snapshot.",
+    "Package paths/versions are observed in this read-only audit environment. The training config directly records Python/torch/CUDA; other packages lack a per-run contemporaneous import-path record, so their training-time identity is bounded by the earlier environment snapshot and source hashes.",
+    "The evaluation summary does not directly persist the number of evaluated samples/scalars or max-batches.27018 is supported by the frozen split, default max-batches=0, and recorded final-stage launcher; it is not a separately saved runtime count."
+  ],
+  "trial_id": "Transformer_07",
+  "run_directory": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/full/Transformer_07",
+  "status": "verified_with_documented_limits",
+  "metrics_ready_for_reporting": true,
+  "completed_unix": 1791983329.2226593,
+  "audit_script_sha256": "48438fd18b9b6d0cfe222e6e8123221ceb72868916c7fdad5f5aa60e9401e0f3"
+}

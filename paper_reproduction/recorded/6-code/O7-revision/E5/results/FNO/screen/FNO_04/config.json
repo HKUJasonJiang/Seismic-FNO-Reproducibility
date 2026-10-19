@@ -1,0 +1,73 @@
+{
+  "host": "xg-boost-lab-container",
+  "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+  "torch": "2.12.0+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+  "device_total_gib": 94.97021484375,
+  "seed": 42,
+  "tf32": false,
+  "precision": "fp32",
+  "stage": "screen",
+  "candidate": {
+    "trial_id": "FNO_04",
+    "original": false,
+    "lr": 0.003,
+    "n_modes": 512,
+    "hidden_channels": 64,
+    "n_layers": 8
+  },
+  "architecture": {
+    "n_modes": 512,
+    "hidden_channels": 64,
+    "n_layers": 8
+  },
+  "seq_len": 3000,
+  "epochs": 20,
+  "batch": 64,
+  "grad_clip": 1.0,
+  "scheduler_step": 8,
+  "params": {
+    "numel": 8505793,
+    "numel_m": 8.505793,
+    "real_params": 16927169,
+    "real_params_m": 16.927169,
+    "trainable": 8505793
+  },
+  "script_sha256": "fd9687de2dc70ac7df2936a5c03138698a905fdbc92b49c25c5e4b07a63fa9a3",
+  "protocol_sha256": "a3aad0c3e75240fba8015bfddae60b78af439142ecccc15ed552da76dc8ed076",
+  "cache_manifest": {
+    "files": {
+      "x50": {
+        "source": "/data/home/jason/data/SesimicTransformerData/MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+        "dataset": "Acc_GMs",
+        "source_shape": [
+          198018,
+          3000
+        ],
+        "source_dtype": "float64",
+        "source_size": 4752434048,
+        "source_mtime": 1780539628.324488,
+        "cache": "6-code/O7-revision/E5/cache/x50.npy",
+        "cache_sha256": "bc2f463735bbe4827fbe8d95580fe67f27a88d8c078bf091a5167a2794dc56e1",
+        "source_sha256": "62b008c1cf36053a6569634899d3efa1ba21dc42bfd0ee8f467143266d2b76ce"
+      },
+      "y50": {
+        "source": "/data/home/jason/data/SesimicTransformerData/MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+        "dataset": "Acc_Floor_Response",
+        "source_shape": [
+          198018,
+          3000
+        ],
+        "source_dtype": "float64",
+        "source_size": 4754020264,
+        "source_mtime": 1780539634.1515534,
+        "cache": "6-code/O7-revision/E5/cache/y50.npy",
+        "cache_sha256": "1693ebe45a64f3d384590ddf99b876b742b0afba22cb199921db13777fa1d741",
+        "source_sha256": "c848b55b161ffa9abbd6a9dea4d1c574784896725507a9cc2379757063cb3ce2"
+      }
+    },
+    "conversion": "float64 or native HDF5 -> float32 identical to torch.from_numpy(...).float()",
+    "created_unix": 1791969433.9939601
+  }
+}

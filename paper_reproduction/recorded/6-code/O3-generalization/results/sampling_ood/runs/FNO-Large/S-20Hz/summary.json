@@ -1,0 +1,16 @@
+{
+  "model": "FNO-Large",
+  "run_id": "S-20Hz",
+  "best_epoch": 22,
+  "best_val_mse": 0.04391344446996499,
+  "train_time_s": 9697.939847707748,
+  "peak_gpu_gb": 1.4749035835266113,
+  "best_checkpoint": "6-code/O3-generalization/results/sampling_ood/runs/FNO-Large/S-20Hz/checkpoints/FNO-Large_S-20Hz_best.pt",
+  "params": {
+    "numel": 8505793,
+    "numel_m": 8.505793,
+    "real_params": 16927169,
+    "real_params_m": 16.927169,
+    "trainable": 8505793
+  }
+}

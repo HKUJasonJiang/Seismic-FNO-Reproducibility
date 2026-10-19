@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "compared": [
+    "recorded\\6-code\\O5-fema-p58\\results\\multistructure\\p58\\o5_multistructure_component_probabilities.csv",
+    "recorded\\6-code\\O5-fema-p58\\results\\multistructure\\p58\\o5_multistructure_probability_errors.csv",
+    "recorded\\6-code\\O5-fema-p58\\results\\multistructure\\p58\\o5_multistructure_scenario_summary.csv",
+    "E2 boundary grid exact equality",
+    "E2 anchor_results.csv",
+    "E2 exact_sensitivity_summary.csv",
+    "E2 classification_capacity_intervals.csv",
+    "E2 table11_reproduction.csv"
+  ]
+}

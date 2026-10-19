@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "MLP",
+  "stage": "screen",
+  "trial_id": "MLP_04",
+  "best_val_mse": 0.5580248226197003,
+  "train_time_s": 29.851992700248957,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5_additional_20261017/results/MLP/screen/MLP_04/checkpoints/best.pt",
+  "params": {
+    "numel": 4462592,
+    "numel_m": 4.462592,
+    "real_params": 4462592,
+    "real_params_m": 4.462592,
+    "trainable": 4462592
+  },
+  "test_used_for_selection": false
+}

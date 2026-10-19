@@ -1,0 +1,1250 @@
+{
+  "ResCNN1D": [
+    {
+      "trial_id": "ResCNN1D_00",
+      "original": true,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_01",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_02",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_03",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_04",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_05",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_06",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_07",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_08",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_09",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_10",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_11",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_12",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_13",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_14",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_15",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_16",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_17",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_18",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_19",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_20",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_21",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_22",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_23",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_24",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_25",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_26",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_27",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_28",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_29",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_30",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_31",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_32",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_33",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_34",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_35",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_36",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_37",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_38",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_39",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_40",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_41",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_42",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_43",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_44",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_45",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_46",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_47",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_48",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_49",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_50",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_51",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_52",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_53",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_54",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_55",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_56",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_57",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_58",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_59",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_60",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_61",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_62",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_63",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_64",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_65",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_66",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_67",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_68",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_69",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 7,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_70",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_71",
+      "original": false,
+      "lr": 0.001,
+      "channels": 128,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_72",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_73",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 384,
+      "kernel_size": 11,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_74",
+      "original": false,
+      "lr": 0.001,
+      "channels": 384,
+      "kernel_size": 3,
+      "n_blocks": 4
+    },
+    {
+      "trial_id": "ResCNN1D_75",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 128,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_76",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_77",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 12
+    },
+    {
+      "trial_id": "ResCNN1D_78",
+      "original": false,
+      "lr": 0.001,
+      "channels": 256,
+      "kernel_size": 3,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_79",
+      "original": false,
+      "lr": 0.0003,
+      "channels": 256,
+      "kernel_size": 7,
+      "n_blocks": 8
+    },
+    {
+      "trial_id": "ResCNN1D_80",
+      "original": false,
+      "lr": 0.0001,
+      "channels": 256,
+      "kernel_size": 11,
+      "n_blocks": 4
+    }
+  ],
+  "UNet1D": [
+    {
+      "trial_id": "UNet1D_00",
+      "original": true,
+      "lr": 0.001,
+      "enc_channels": [
+        64,
+        128,
+        256,
+        512
+      ]
+    },
+    {
+      "trial_id": "UNet1D_01",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        64,
+        128,
+        256
+      ]
+    },
+    {
+      "trial_id": "UNet1D_02",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        96,
+        192,
+        384,
+        768,
+        1536
+      ]
+    },
+    {
+      "trial_id": "UNet1D_03",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        96,
+        192,
+        384
+      ]
+    },
+    {
+      "trial_id": "UNet1D_04",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ]
+    },
+    {
+      "trial_id": "UNet1D_05",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        64,
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    {
+      "trial_id": "UNet1D_06",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        64,
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    {
+      "trial_id": "UNet1D_07",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        32,
+        64,
+        128
+      ]
+    },
+    {
+      "trial_id": "UNet1D_08",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        32,
+        64,
+        128,
+        256
+      ]
+    },
+    {
+      "trial_id": "UNet1D_09",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        96,
+        192,
+        384,
+        768
+      ]
+    },
+    {
+      "trial_id": "UNet1D_10",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        64,
+        128,
+        256,
+        512
+      ]
+    },
+    {
+      "trial_id": "UNet1D_11",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ]
+    },
+    {
+      "trial_id": "UNet1D_12",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        32,
+        64,
+        128,
+        256
+      ]
+    },
+    {
+      "trial_id": "UNet1D_13",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        32,
+        64,
+        128
+      ]
+    },
+    {
+      "trial_id": "UNet1D_14",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        32,
+        64,
+        128
+      ]
+    },
+    {
+      "trial_id": "UNet1D_15",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        64,
+        128,
+        256
+      ]
+    },
+    {
+      "trial_id": "UNet1D_16",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        64,
+        128,
+        256,
+        512,
+        1024
+      ]
+    },
+    {
+      "trial_id": "UNet1D_17",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        96,
+        192,
+        384
+      ]
+    },
+    {
+      "trial_id": "UNet1D_18",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        64,
+        128,
+        256,
+        512
+      ]
+    },
+    {
+      "trial_id": "UNet1D_19",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        96,
+        192,
+        384,
+        768,
+        1536
+      ]
+    },
+    {
+      "trial_id": "UNet1D_20",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        96,
+        192,
+        384,
+        768
+      ]
+    },
+    {
+      "trial_id": "UNet1D_21",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        96,
+        192,
+        384,
+        768,
+        1536
+      ]
+    },
+    {
+      "trial_id": "UNet1D_22",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ]
+    },
+    {
+      "trial_id": "UNet1D_23",
+      "original": false,
+      "lr": 0.001,
+      "enc_channels": [
+        96,
+        192,
+        384
+      ]
+    },
+    {
+      "trial_id": "UNet1D_24",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        96,
+        192,
+        384,
+        768
+      ]
+    },
+    {
+      "trial_id": "UNet1D_25",
+      "original": false,
+      "lr": 0.0003,
+      "enc_channels": [
+        32,
+        64,
+        128,
+        256
+      ]
+    },
+    {
+      "trial_id": "UNet1D_26",
+      "original": false,
+      "lr": 0.0001,
+      "enc_channels": [
+        64,
+        128,
+        256
+      ]
+    }
+  ],
+  "MLP": [
+    {
+      "trial_id": "MLP_00",
+      "original": true,
+      "lr": 0.001,
+      "hidden": [
+        1024,
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_01",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_02",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_03",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_04",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        512,
+        512,
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_05",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_06",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_07",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_08",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_09",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        2048,
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_10",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        1024,
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_11",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        512,
+        512,
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_12",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_13",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_14",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_15",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_16",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_17",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_18",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        1024,
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "trial_id": "MLP_19",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_20",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        2048,
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_21",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_22",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        512,
+        512,
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_23",
+      "original": false,
+      "lr": 0.001,
+      "hidden": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_24",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        2048,
+        2048,
+        2048,
+        2048
+      ]
+    },
+    {
+      "trial_id": "MLP_25",
+      "original": false,
+      "lr": 0.0003,
+      "hidden": [
+        512,
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "trial_id": "MLP_26",
+      "original": false,
+      "lr": 0.0001,
+      "hidden": [
+        1024,
+        1024
+      ]
+    }
+  ]
+}

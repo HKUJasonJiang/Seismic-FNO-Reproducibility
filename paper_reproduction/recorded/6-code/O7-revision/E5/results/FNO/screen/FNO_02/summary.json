@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "FNO",
+  "stage": "screen",
+  "trial_id": "FNO_02",
+  "best_val_mse": 0.07821629066154971,
+  "train_time_s": 735.3734831251204,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5/results/FNO/screen/FNO_02/checkpoints/best.pt",
+  "params": {
+    "numel": 8653953,
+    "numel_m": 8.653953,
+    "real_params": 17108097,
+    "real_params_m": 17.108097,
+    "trainable": 8653953
+  },
+  "test_used_for_selection": false
+}

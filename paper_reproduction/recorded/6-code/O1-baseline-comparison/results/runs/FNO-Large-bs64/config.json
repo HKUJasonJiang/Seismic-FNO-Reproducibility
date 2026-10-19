@@ -1,0 +1,24 @@
+{
+  "model": "FNO-Large-bs64",
+  "seed": 42,
+  "epochs": 50,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler_step": 20,
+  "scheduler_gamma": 0.5,
+  "split": "fixed_474_test_full_57_factors",
+  "architecture": {
+    "n_modes": 512,
+    "hidden_channels": 64,
+    "n_layers": 8,
+    "domain_padding": 0.1
+  },
+  "params": {
+    "numel": 8505793,
+    "numel_m": 8.505793,
+    "real_params": 16927169,
+    "real_params_m": 16.927169,
+    "trainable": 8505793
+  }
+}

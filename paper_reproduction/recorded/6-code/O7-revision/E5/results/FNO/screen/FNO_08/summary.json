@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "FNO",
+  "stage": "screen",
+  "trial_id": "FNO_08",
+  "best_val_mse": 0.08836213234706232,
+  "train_time_s": 519.7171455733478,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/FNO/screen/FNO_08/checkpoints/best.pt",
+  "params": {
+    "numel": 3188385,
+    "numel_m": 3.188385,
+    "real_params": 6346401,
+    "real_params_m": 6.346401,
+    "trainable": 3188385
+  },
+  "test_used_for_selection": false
+}

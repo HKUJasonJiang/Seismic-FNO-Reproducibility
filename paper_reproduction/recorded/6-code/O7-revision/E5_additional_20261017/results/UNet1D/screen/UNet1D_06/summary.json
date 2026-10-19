@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "UNet1D",
+  "stage": "screen",
+  "trial_id": "UNet1D_06",
+  "best_val_mse": 0.17164643015008224,
+  "train_time_s": 1480.9265467822552,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5_additional_20261017/results/UNet1D/screen/UNet1D_06/checkpoints/best.pt",
+  "params": {
+    "numel": 31458689,
+    "numel_m": 31.458689,
+    "real_params": 31458689,
+    "real_params_m": 31.458689,
+    "trainable": 31458689
+  },
+  "test_used_for_selection": false
+}

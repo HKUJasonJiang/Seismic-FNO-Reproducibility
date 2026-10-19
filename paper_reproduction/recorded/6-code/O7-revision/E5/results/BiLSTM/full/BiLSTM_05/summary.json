@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "family": "BiLSTM",
+  "stage": "full",
+  "trial_id": "BiLSTM_05",
+  "best_val_mse": 0.009553543734485411,
+  "train_time_s": 58082.09357010666,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/BiLSTM/full/BiLSTM_05/checkpoints/best.pt",
+  "params": {
+    "numel": 14709761,
+    "numel_m": 14.709761,
+    "real_params": 14709761,
+    "real_params_m": 14.709761,
+    "trainable": 14709761
+  },
+  "test_used_for_selection": false,
+  "test_same_grid": {
+    "mse": 0.009484058661473466,
+    "rmse": 0.09738613177179524,
+    "mae": 0.04137260780952889,
+    "r2": 0.9878085959311249,
+    "pfa_mse_g2": 0.00028335464899160355,
+    "pfa_rmse_g": 0.016833141388095198,
+    "pfa_mae_g": 0.009954937272839918,
+    "pfa_r2": 0.9893252778787797,
+    "seconds": 90.62216034391895
+  }
+}

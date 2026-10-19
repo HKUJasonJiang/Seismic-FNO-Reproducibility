@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "family": "ResCNN1D",
+  "stage": "full",
+  "trial_id": "ResCNN1D_03",
+  "best_val_mse": 0.09900745013439632,
+  "train_time_s": 85975.02894311212,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5_additional_20261017/results/ResCNN1D/full/ResCNN1D_03/checkpoints/best.pt",
+  "params": {
+    "numel": 11031297,
+    "numel_m": 11.031297,
+    "real_params": 11031297,
+    "real_params_m": 11.031297,
+    "trainable": 11031297
+  },
+  "test_used_for_selection": false,
+  "test_same_grid": {
+    "mse": 0.10104876863654362,
+    "rmse": 0.31788168968429686,
+    "mae": 0.18221757400207347,
+    "r2": 0.8701055728736831,
+    "pfa_mse_g2": 0.0018649293778225525,
+    "pfa_rmse_g": 0.043184828097638094,
+    "pfa_mae_g": 0.03129389876351825,
+    "pfa_r2": 0.9297431451167628,
+    "seconds": 77.3007669057697,
+    "evaluated_samples": 27018,
+    "evaluated_scalars": 81054000
+  }
+}

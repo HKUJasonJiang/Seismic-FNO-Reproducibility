@@ -1,0 +1,124 @@
+{
+  "comment": "R3-C1",
+  "sampling_seed": 2026,
+  "split_seed": 42,
+  "initialization_seed": 42,
+  "candidate_count": 9,
+  "screen_ac": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    16,
+    19,
+    22,
+    25,
+    28,
+    31,
+    34,
+    37,
+    40,
+    44,
+    47,
+    50,
+    53,
+    56
+  ],
+  "screen_samples": {
+    "train": 45600,
+    "val": 11400
+  },
+  "batch_size": 64,
+  "precision": "FP32, autocast disabled, TF32 disabled",
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "scheduler_gamma": 0.5,
+  "screen_epochs": 20,
+  "screen_scheduler_step": 8,
+  "final_epochs": 50,
+  "final_scheduler_step": 20,
+  "selection": "smallest best validation MSE, tie trial_id ascending; never test",
+  "oom_rule": "Dry-run all first 9 independently at batch64 before screening; replace OOM candidates with next pre-shuffled candidate, unchanged batch. If original OOM stop and reconsider all-family batch; record all excluded configs.",
+  "failure_rule": "nonfinite trial recorded as failed, never silently dropped; continue others; failed trials are not budget replacements unless setup or code defect precedes training",
+  "reuse": "screen requires exact 19AC/20epoch protocol; final historical checkpoint only if all parameters/split/seed/training protocol/source match. Otherwise rerun.",
+  "scarce": "Not part of this extension",
+  "transfer": "Not part of this extension",
+  "split_hashes": {
+    "train_gms": "6a36f348176c123c7af4d129563254d71ea8ae3c30cd1cc682517b90506e96be",
+    "val_gms": "ed3c4e45f8b47d0fff62867e803f15a91acee46978f566f0e61fc4af84bca9eb",
+    "test_gms": "759a8ef5a19b103081315ded3ef64b6999824186ba352671ed1df805c7d5a1e8",
+    "screen_train": "c97a9a395c84659c3b76fdf4b0e0a217b99ef8e61718f40479e31cad52b2a46b",
+    "screen_val": "7fb4a8006eb0d8abc8c9e250029f843b32f2fcd4bf8ef14a6741087e31b4a661",
+    "full_train": "0fe8b0c8bf498f51e34a1363c306f8dfb1dd2b7746e78c4ee1b93de00f737a73",
+    "full_val": "61cd739dc5a2095f66e0286b61448674ed6436eaf1aad6c355afd7666ff80ed5",
+    "test": "a999faa3a67f75cb3442cac3670961ae04ceb574d181bbc82d9b76e7b18ce367"
+  },
+  "framework_variation": "Candidate count, data, numerical precision and training schedule match parent E5. GPU hardware and installed runtimes are recorded per trial; GPU hours are not matched.",
+  "experiment": "E5 additional families, 2026-10-17",
+  "frozen_at": "2026-10-17T15:50:50.314645+08:00",
+  "scope": "Nine feasible candidates each for ResCNN1D, UNet1D, MLP; validation-only selection; full57AC/50Hz final50epochs. No new scarcity or transfer experiments.",
+  "parent_protocol_sha256": "a3aad0c3e75240fba8015bfddae60b78af439142ecccc15ed552da76dc8ed076",
+  "split_file_sha256": "e88e306df983ac16b5c4e88c04524e2d16535484fbb69ee4d43511f79973c7bc",
+  "search_space_sha256": "d97ad07d8a5153f3a197245c61185cedb2273907dbfaba6ac04f226b9e3ead39",
+  "candidate_ranges": {
+    "ResCNN1D": {
+      "lr": [
+        0.0001,
+        0.0003,
+        0.001
+      ],
+      "channels": [
+        128,
+        256,
+        384
+      ],
+      "kernel_size": [
+        3,
+        7,
+        11
+      ],
+      "n_blocks": [
+        4,
+        8,
+        12
+      ]
+    },
+    "UNet1D": {
+      "lr": [
+        0.0001,
+        0.0003,
+        0.001
+      ],
+      "base_width": [
+        32,
+        64,
+        96
+      ],
+      "depth": [
+        3,
+        4,
+        5
+      ]
+    },
+    "MLP": {
+      "lr": [
+        0.0001,
+        0.0003,
+        0.001
+      ],
+      "width": [
+        512,
+        1024,
+        2048
+      ],
+      "depth": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  "gpu_policy": "Largest-memory assigned GPU preflights every candidate before screening. A candidate that does not fit an auxiliary GPU is routed to the largest GPU without changing batch or configuration."
+}

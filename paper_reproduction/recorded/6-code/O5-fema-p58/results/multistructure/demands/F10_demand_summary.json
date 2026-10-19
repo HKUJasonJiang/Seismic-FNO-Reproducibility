@@ -1,0 +1,22 @@
+{
+  "structure_id": "F10",
+  "paper_label": "F-10",
+  "n_records": 27018,
+  "response_scope": "roof_only",
+  "time_steps": 3000,
+  "dt_s": 0.02,
+  "fem_history_path": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\demands\\F10_fem_roof_history_ms2.npy",
+  "fno_history_path": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\demands\\F10_fno_roof_history_ms2.npy",
+  "pfa_csv": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\demands\\F10_roof_pfa_demands.csv",
+  "fem_pfa_mean_g": 0.2739238355986322,
+  "fem_pfa_p50_g": 0.2857302278280258,
+  "fem_pfa_p90_g": 0.39654937386512756,
+  "fem_pfa_p95_g": 0.42357094436883924,
+  "fno_pfa_mean_g": 0.2665390331006217,
+  "fno_pfa_p50_g": 0.2833939343690872,
+  "fno_pfa_p90_g": 0.38444332480430604,
+  "fno_pfa_p95_g": 0.4112208887934684,
+  "pfa_mae_g": 0.017664209985316186,
+  "pfa_rmse_g": 0.02834370981131379,
+  "pfa_error_p95_abs_g": 0.04866160154342648
+}

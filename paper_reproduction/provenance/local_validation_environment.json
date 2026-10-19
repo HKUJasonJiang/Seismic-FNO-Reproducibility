@@ -1,0 +1,18 @@
+{
+  "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:26:47) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "win32",
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1",
+    "h5py": "3.16.0",
+    "tensorly": "0.10.0",
+    "tensorly-torch": "0.5.0",
+    "opt-einsum": "3.4.0",
+    "configmypy": "0.2.0",
+    "wandb": "0.31.0",
+    "scikit-learn": "1.9.0"
+  }
+}

@@ -1,0 +1,1175 @@
+{
+  "created_utc": "2026-10-14T10:11:29.378983+00:00",
+  "audit_kind": "read-only CPU audit, GPU queue untouched",
+  "host": "xg-boost-lab-container",
+  "project_root": "/data/home/jason/Seismic-FNO",
+  "environment": {
+    "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+    "executable": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E4/.venv-sefno/bin/python",
+    "torch": "2.12.0+cu130",
+    "torch_cuda_built": "13.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "h5py": "3.16.0",
+    "neuralop_metadata_version": "2.0.0",
+    "neuralop_imported_module_version": "1.0.2",
+    "neuralop_imported_module_file": "/data/home/jason/Seismic-FNO/neuralop/__init__.py",
+    "neuralop_version_basis": "Imported vendored source governs execution; installed distribution metadata may differ. Do not recreate this run by installing its metadata version."
+  },
+  "audit_script_sha256": "b6f369f091b22ce24a3456238b20f9dc75b6cb3d0bcdeb666f7e0f10ebe8ef84",
+  "cache_source_manifest_sha256": "79822b9a5bb6796841c997967f4cd9f19f9b2f91bfbe4c4d941f9fe2cdb95401",
+  "large_file_hash_policy": "raw/cache SHA-256 copied from completed E5 manifest; not rehashed here",
+  "data": {
+    "x50": {
+      "source": "/data/home/jason/data/SesimicTransformerData/MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+      "dataset": "Acc_GMs",
+      "source_shape": [
+        198018,
+        3000
+      ],
+      "source_dtype": "float64",
+      "source_size": 4752434048,
+      "source_mtime": 1780539628.324488,
+      "cache": "6-code/O7-revision/E5/cache/x50.npy",
+      "cache_sha256": "bc2f463735bbe4827fbe8d95580fe67f27a88d8c078bf091a5167a2794dc56e1",
+      "source_sha256": "62b008c1cf36053a6569634899d3efa1ba21dc42bfd0ee8f467143266d2b76ce",
+      "cache_current_path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/cache/x50.npy",
+      "cache_bytes": 2376216128,
+      "source_stat_matches_creation": true,
+      "raw_to_cache_checked_rows": [
+        {
+          "sample_id": 0,
+          "exact_float32_equal": true,
+          "row_sha256": "ee6eb11770bd2ada82bbbb1e107f99143a5a3642547c084fda14d6fc600c1611"
+        },
+        {
+          "sample_id": 56,
+          "exact_float32_equal": true,
+          "row_sha256": "8322072365425df4ad3cd4aaf1b58cf5a4b18aaa088074a8e3edb65f9c39700a"
+        },
+        {
+          "sample_id": 57,
+          "exact_float32_equal": true,
+          "row_sha256": "393a49954ad964a99437a8ed00a41b12a0dc64b13475fecda62c3e40645363ee"
+        },
+        {
+          "sample_id": 42294,
+          "exact_float32_equal": true,
+          "row_sha256": "23e25f57afd995ecf9da161f8885c405acc3e23eefd51248e47aec18c35db82e"
+        },
+        {
+          "sample_id": 42295,
+          "exact_float32_equal": true,
+          "row_sha256": "b25de17e6850ced3f992623af0d86fb42df8fb67b59664fb5b71dbce90ce8f42"
+        },
+        {
+          "sample_id": 42296,
+          "exact_float32_equal": true,
+          "row_sha256": "6a95d3bba9c16e3e1764854a3d2579b63ab962ddf5a797468a98f2cb3a64f3a9"
+        },
+        {
+          "sample_id": 84132,
+          "exact_float32_equal": true,
+          "row_sha256": "4a36366e85678777192f84593f204a5c55991fd3b8be651e25542d75c54baefb"
+        },
+        {
+          "sample_id": 84133,
+          "exact_float32_equal": true,
+          "row_sha256": "6abf457ebd4af0db993fb0e13e181eff0c01bed07901128a0c2069558e0a7f4b"
+        },
+        {
+          "sample_id": 84134,
+          "exact_float32_equal": true,
+          "row_sha256": "6c4117f5481d299ec2af5566e4c7d9e3003ee542c7a20878006d3e1e4c65c2b8"
+        },
+        {
+          "sample_id": 193401,
+          "exact_float32_equal": true,
+          "row_sha256": "ddbadcdca4012beab88d38787d1384da17cd11e5c03f5005b6c7d5ca18fef183"
+        },
+        {
+          "sample_id": 193402,
+          "exact_float32_equal": true,
+          "row_sha256": "ac6b3ee05a932b281c8553d5aed7ef975d8afe09615838fe3702938db4f7741d"
+        },
+        {
+          "sample_id": 193403,
+          "exact_float32_equal": true,
+          "row_sha256": "9cb4bc0ce4fec38f6998efdf2c584f1df4489a7fb92db2bbe152d8078d07c991"
+        },
+        {
+          "sample_id": 198017,
+          "exact_float32_equal": true,
+          "row_sha256": "7948686d6608584abf54c841d1c2b858273848b574baac15145b230e2e470504"
+        }
+      ],
+      "building_attributes": {},
+      "cross_host_logical_dataset_check": {
+        "pro6000_2_logical_sha256": "59ef109da5fb7f3c047707094edcc7ea6245eba9f8ab17cceb3c429e3d53be55",
+        "5090_logical_sha256": "59ef109da5fb7f3c047707094edcc7ea6245eba9f8ab17cceb3c429e3d53be55",
+        "shape_matches": true,
+        "dtype_matches": true,
+        "matches": true,
+        "computed_from": "full original-dtype dataset, row chunks512"
+      }
+    },
+    "y50": {
+      "source": "/data/home/jason/data/SesimicTransformerData/MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+      "dataset": "Acc_Floor_Response",
+      "source_shape": [
+        198018,
+        3000
+      ],
+      "source_dtype": "float64",
+      "source_size": 4754020264,
+      "source_mtime": 1780539634.1515534,
+      "cache": "6-code/O7-revision/E5/cache/y50.npy",
+      "cache_sha256": "1693ebe45a64f3d384590ddf99b876b742b0afba22cb199921db13777fa1d741",
+      "source_sha256": "c848b55b161ffa9abbd6a9dea4d1c574784896725507a9cc2379757063cb3ce2",
+      "cache_current_path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/cache/y50.npy",
+      "cache_bytes": 2376216128,
+      "source_stat_matches_creation": true,
+      "raw_to_cache_checked_rows": [
+        {
+          "sample_id": 0,
+          "exact_float32_equal": true,
+          "row_sha256": "0e9ffc272049fad426d006a1b460a410a4ee82d7f3df57e644c08a03ddd6fb8f"
+        },
+        {
+          "sample_id": 56,
+          "exact_float32_equal": true,
+          "row_sha256": "31d838fa2b2d77f93668130c4bf2a1c100e7bf096d54983db1be5522bf47eaff"
+        },
+        {
+          "sample_id": 57,
+          "exact_float32_equal": true,
+          "row_sha256": "88beb3709f782225a26f13854be6c8abb24318fdf5f9b55d58021179f56ce18a"
+        },
+        {
+          "sample_id": 42294,
+          "exact_float32_equal": true,
+          "row_sha256": "a2ec28fe58f291f2d8f7fc2a24c7db601199d767ff6f0ce3a6c2590ce4b6c188"
+        },
+        {
+          "sample_id": 42295,
+          "exact_float32_equal": true,
+          "row_sha256": "040af52475977853e69a21369703d24dca9f0c9222d43398ac6fe3fa49b8f140"
+        },
+        {
+          "sample_id": 42296,
+          "exact_float32_equal": true,
+          "row_sha256": "dba91de2d4f6b0113d3f68a1e5babc5dd7b03ca2e122182a24e33d004694b955"
+        },
+        {
+          "sample_id": 84132,
+          "exact_float32_equal": true,
+          "row_sha256": "acc8073f090000e8602ede2ab21210267d28d265cb7801af00a67eba3e6b02f9"
+        },
+        {
+          "sample_id": 84133,
+          "exact_float32_equal": true,
+          "row_sha256": "900c1a7bfb3d855ed5f68501475b94401b494dbc411ca966eb6326384c7c7248"
+        },
+        {
+          "sample_id": 84134,
+          "exact_float32_equal": true,
+          "row_sha256": "b630bdcd68b6bb66a1ce7c749a4d855ca1f59260bc13216c75386158b5f3455d"
+        },
+        {
+          "sample_id": 193401,
+          "exact_float32_equal": true,
+          "row_sha256": "27b7448d13961a747d9e7f859c8396ef65411ee8f8f1c72597829fe03289caaf"
+        },
+        {
+          "sample_id": 193402,
+          "exact_float32_equal": true,
+          "row_sha256": "5e72b8b1268bb47adb6c627ce91d9b60c7e4060f8d9b9fb66c3905cfdd728853"
+        },
+        {
+          "sample_id": 193403,
+          "exact_float32_equal": true,
+          "row_sha256": "291c377e0dd5a0f021e8ef91bf201ea8305d2aa7531bfad474a54c2d17970771"
+        },
+        {
+          "sample_id": 198017,
+          "exact_float32_equal": true,
+          "row_sha256": "7eb2badc5077355b20d1105f593709b61de001ae872b74bdbdd90f6e676911e7"
+        }
+      ],
+      "building_attributes": {
+        "IM": {
+          "shape": [
+            1
+          ],
+          "values": [
+            1
+          ]
+        },
+        "height": {
+          "shape": [
+            1
+          ],
+          "values": [
+            18.0
+          ]
+        },
+        "stories": {
+          "shape": [
+            1
+          ],
+          "values": [
+            6
+          ]
+        },
+        "struct_type": {
+          "shape": [
+            1
+          ],
+          "values": [
+            0
+          ]
+        }
+      },
+      "cross_host_logical_dataset_check": {
+        "pro6000_2_logical_sha256": "440b8cb11e6f76382cda584d49ed080fbbd0a603c53c3f307ca9d74f8222cb66",
+        "5090_logical_sha256": "440b8cb11e6f76382cda584d49ed080fbbd0a603c53c3f307ca9d74f8222cb66",
+        "shape_matches": true,
+        "dtype_matches": true,
+        "matches": true,
+        "computed_from": "full original-dtype dataset, row chunks512"
+      }
+    }
+  },
+  "splits": {
+    "train_indices": {
+      "shape": [
+        136800
+      ],
+      "dtype": "int64",
+      "sha256_raw_array": "0fe8b0c8bf498f51e34a1363c306f8dfb1dd2b7746e78c4ee1b93de00f737a73",
+      "count": 136800,
+      "first_10": [
+        42294,
+        42295,
+        42296,
+        42297,
+        42298,
+        42299,
+        42300,
+        42301,
+        42302,
+        42303
+      ]
+    },
+    "val_indices": {
+      "shape": [
+        34200
+      ],
+      "dtype": "int64",
+      "sha256_raw_array": "61cd739dc5a2095f66e0286b61448674ed6436eaf1aad6c355afd7666ff80ed5",
+      "count": 34200,
+      "first_10": [
+        84132,
+        84133,
+        84134,
+        84135,
+        84136,
+        84137,
+        84138,
+        84139,
+        84140,
+        84141
+      ]
+    },
+    "test_indices": {
+      "shape": [
+        27018
+      ],
+      "dtype": "int64",
+      "sha256_raw_array": "a999faa3a67f75cb3442cac3670961ae04ceb574d181bbc82d9b76e7b18ce367",
+      "count": 27018,
+      "first_10": [
+        193401,
+        193402,
+        193403,
+        193404,
+        193405,
+        193406,
+        193407,
+        193408,
+        193409,
+        193410
+      ]
+    },
+    "train_gms": {
+      "shape": [
+        2400
+      ],
+      "dtype": "int64",
+      "sha256_raw_array": "6a36f348176c123c7af4d129563254d71ea8ae3c30cd1cc682517b90506e96be",
+      "count": 2400,
+      "first_10": [
+        742,
+        2527,
+        291,
+        3014,
+        2662,
+        1321,
+        927,
+        1966,
+        2681,
+        735
+      ]
+    },
+    "val_gms": {
+      "shape": [
+        600
+      ],
+      "dtype": "int64",
+      "sha256_raw_array": "ed3c4e45f8b47d0fff62867e803f15a91acee46978f566f0e61fc4af84bca9eb",
+      "count": 600,
+      "first_10": [
+        1476,
+        2073,
+        3121,
+        279,
+        193,
+        1010,
+        3279,
+        1121,
+        665,
+        27
+      ]
+    },
+    "test_gms": {
+      "shape": [
+        474
+      ],
+      "dtype": "int64",
+      "sha256_raw_array": "759a8ef5a19b103081315ded3ef64b6999824186ba352671ed1df805c7d5a1e8",
+      "count": 474,
+      "first_10": [
+        3393,
+        635,
+        369,
+        268,
+        2703,
+        2983,
+        2870,
+        2914,
+        46,
+        3219
+      ]
+    },
+    "scale_indices": {
+      "shape": [
+        57
+      ],
+      "dtype": "int64",
+      "sha256_raw_array": "43f1a99a51253ac97d3a08db808b056d3f62b42ae4b6b1aa4c7c6ef36a4df3f4",
+      "count": 57,
+      "first_10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "existing_pickle_sha256": "a5934fedad625f335b98572a33f8c9fb56b8ae78aaf8d8c473435c4773dba1c5",
+    "gm_groups_disjoint": true,
+    "all_57_scaled_versions_within_one_split": true
+  },
+  "checkpoints": [
+    {
+      "model": "FNO-Large",
+      "train_hz": 20,
+      "path": "/data/home/jason/Seismic-FNO/6-code/O3-generalization/results/sampling_ood/runs/FNO-Large/S-20Hz/checkpoints/FNO-Large_S-20Hz_best.pt",
+      "sha256": "30899f9ad9f0dd9752b99f263be44f7b8eaa6623dc3458ea0e16d69c311168af",
+      "checkpoint_epoch": 22,
+      "config": {
+        "model": "FNO-Large",
+        "run_id": "S-20Hz",
+        "seed": 42,
+        "epochs": 50,
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "scheduler_step": 20,
+        "scheduler_gamma": 0.5,
+        "grad_clip": 0.0,
+        "train_hz": 20,
+        "train_seq_len": 1200,
+        "eval_hz": 50,
+        "eval_seq_len": 3000,
+        "train_rfft_bins": 601,
+        "eval_rfft_bins": 1501,
+        "fno_n_modes": 512,
+        "resampling": "scipy.signal.resample_poly for train/val; fixed test remains native 50Hz",
+        "train_gms": 2400,
+        "val_gms": 600,
+        "test_gms": 474,
+        "train_samples": 136800,
+        "val_samples": 34200,
+        "test_samples": 27018,
+        "params": {
+          "numel": 8505793,
+          "numel_m": 8.505793,
+          "real_params": 16927169,
+          "real_params_m": 16.927169,
+          "trainable": 8505793
+        }
+      },
+      "metrics": {
+        "mse": 0.04391344446996499,
+        "rmse": 0.2095553494186321,
+        "mae": 0.10326870312309637,
+        "r2": 0.9440949099273833,
+        "pfa_mse_g2": 0.0007210274387902596,
+        "pfa_rmse_g": 0.026851954096308514,
+        "pfa_mae_g": 0.01773141458369138,
+        "pfa_r2": 0.9720628851489787,
+        "loss": 0.04396070780006246
+      },
+      "state_tensor_count": 73,
+      "strict_loads": [
+        {
+          "eval_len": 1200,
+          "passed": true,
+          "position_table": null
+        },
+        {
+          "eval_len": 3000,
+          "passed": true,
+          "position_table": null
+        }
+      ],
+      "historical_split_matches": {
+        "train_indices": true,
+        "val_indices": true,
+        "test_indices": true,
+        "train_gms": true,
+        "val_gms": true,
+        "test_gms": true,
+        "scale_indices": true
+      },
+      "historical_split_pickle_sha256": "a5934fedad625f335b98572a33f8c9fb56b8ae78aaf8d8c473435c4773dba1c5"
+    },
+    {
+      "model": "FNO-Large",
+      "train_hz": 50,
+      "path": "/data/home/jason/Seismic-FNO/6-code/O3-generalization/results/sampling_ood/runs/FNO-Large/S-50Hz/checkpoints/FNO-Large_S-50Hz_best.pt",
+      "sha256": "47d8dec09bd8b9048b453e41a5b38dada55b69a1b2183f37cc80dac522691799",
+      "checkpoint_epoch": 22,
+      "config": {
+        "model": "FNO-Large",
+        "run_id": "S-50Hz",
+        "seed": 42,
+        "epochs": 50,
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "scheduler_step": 20,
+        "scheduler_gamma": 0.5,
+        "grad_clip": 0.0,
+        "train_hz": 50,
+        "train_seq_len": 3000,
+        "eval_hz": 50,
+        "eval_seq_len": 3000,
+        "train_rfft_bins": 1501,
+        "eval_rfft_bins": 1501,
+        "fno_n_modes": 512,
+        "resampling": "scipy.signal.resample_poly for train/val; fixed test remains native 50Hz",
+        "train_gms": 2400,
+        "val_gms": 600,
+        "test_gms": 474,
+        "train_samples": 136800,
+        "val_samples": 34200,
+        "test_samples": 27018,
+        "params": {
+          "numel": 8505793,
+          "numel_m": 8.505793,
+          "real_params": 16927169,
+          "real_params_m": 16.927169,
+          "trainable": 8505793
+        }
+      },
+      "metrics": {
+        "mse": 0.043961879449736535,
+        "rmse": 0.20967088364800807,
+        "mae": 0.10484347331680982,
+        "r2": 0.944438154170446,
+        "pfa_mse_g2": 0.0010971650969351463,
+        "pfa_rmse_g": 0.03312348256049092,
+        "pfa_mae_g": 0.02040693056077985,
+        "pfa_r2": 0.9585463795484938,
+        "loss": 0.04401895698664762
+      },
+      "state_tensor_count": 73,
+      "strict_loads": [
+        {
+          "eval_len": 3000,
+          "passed": true,
+          "position_table": null
+        }
+      ],
+      "historical_split_matches": {
+        "train_indices": true,
+        "val_indices": true,
+        "test_indices": true,
+        "train_gms": true,
+        "val_gms": true,
+        "test_gms": true,
+        "scale_indices": true
+      },
+      "historical_split_pickle_sha256": "a5934fedad625f335b98572a33f8c9fb56b8ae78aaf8d8c473435c4773dba1c5"
+    },
+    {
+      "model": "Transformer",
+      "train_hz": 20,
+      "path": "/data/home/jason/Seismic-FNO/6-code/O3-generalization/results/sampling_ood/runs/Transformer/S-20Hz/checkpoints/Transformer_S-20Hz_best.pt",
+      "sha256": "ee30e98f3b257f79bce220225279a726e563e15c56c82b7b79b0b7bccec9c8db",
+      "checkpoint_epoch": 47,
+      "config": {
+        "model": "Transformer",
+        "run_id": "S-20Hz",
+        "seed": 42,
+        "epochs": 50,
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "lr": 0.0003,
+        "weight_decay": 0.0001,
+        "scheduler_step": 20,
+        "scheduler_gamma": 0.5,
+        "grad_clip": 1.0,
+        "train_hz": 20,
+        "train_seq_len": 1200,
+        "eval_hz": 50,
+        "eval_seq_len": 3000,
+        "train_rfft_bins": 601,
+        "eval_rfft_bins": 1501,
+        "fno_n_modes": null,
+        "resampling": "scipy.signal.resample_poly for train/val; fixed test remains native 50Hz",
+        "train_gms": 2400,
+        "val_gms": 600,
+        "test_gms": 474,
+        "train_samples": 136800,
+        "val_samples": 34200,
+        "test_samples": 27018,
+        "params": {
+          "numel": 7927055,
+          "numel_m": 7.927055,
+          "real_params": 7927055,
+          "real_params_m": 7.927055,
+          "trainable": 7927055
+        }
+      },
+      "metrics": {
+        "mse": 0.023848737197638022,
+        "rmse": 0.15443036358708095,
+        "mae": 0.0675914464760942,
+        "r2": 0.9696387788012389,
+        "pfa_mse_g2": 0.00044297176869368256,
+        "pfa_rmse_g": 0.02104689451424325,
+        "pfa_mae_g": 0.013880981490103125,
+        "pfa_r2": 0.9828365017584922,
+        "loss": 0.02387613979707881
+      },
+      "state_tensor_count": 129,
+      "strict_loads": [
+        {
+          "eval_len": 1200,
+          "passed": true,
+          "position_table": {
+            "before": [
+              1,
+              80,
+              256
+            ],
+            "after": [
+              1,
+              80,
+              256
+            ],
+            "mode": "linear, align_corners=True"
+          }
+        },
+        {
+          "eval_len": 3000,
+          "passed": true,
+          "position_table": {
+            "before": [
+              1,
+              80,
+              256
+            ],
+            "after": [
+              1,
+              200,
+              256
+            ],
+            "mode": "linear, align_corners=True"
+          }
+        }
+      ],
+      "historical_split_matches": {
+        "train_indices": true,
+        "val_indices": true,
+        "test_indices": true,
+        "train_gms": true,
+        "val_gms": true,
+        "test_gms": true,
+        "scale_indices": true
+      },
+      "historical_split_pickle_sha256": "a5934fedad625f335b98572a33f8c9fb56b8ae78aaf8d8c473435c4773dba1c5"
+    },
+    {
+      "model": "Transformer",
+      "train_hz": 50,
+      "path": "/data/home/jason/Seismic-FNO/6-code/O3-generalization/results/sampling_ood/runs/Transformer/S-50Hz/checkpoints/Transformer_S-50Hz_best.pt",
+      "sha256": "cce6242bbfa6d812c1d8e9b7b4e3cd8979fe696efc24c86d77a74d79053856b9",
+      "checkpoint_epoch": 45,
+      "config": {
+        "model": "Transformer",
+        "run_id": "S-50Hz",
+        "seed": 42,
+        "epochs": 50,
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "lr": 0.0003,
+        "weight_decay": 0.0001,
+        "scheduler_step": 20,
+        "scheduler_gamma": 0.5,
+        "grad_clip": 1.0,
+        "train_hz": 50,
+        "train_seq_len": 3000,
+        "eval_hz": 50,
+        "eval_seq_len": 3000,
+        "train_rfft_bins": 1501,
+        "eval_rfft_bins": 1501,
+        "fno_n_modes": null,
+        "resampling": "scipy.signal.resample_poly for train/val; fixed test remains native 50Hz",
+        "train_gms": 2400,
+        "val_gms": 600,
+        "test_gms": 474,
+        "train_samples": 136800,
+        "val_samples": 34200,
+        "test_samples": 27018,
+        "params": {
+          "numel": 7957775,
+          "numel_m": 7.957775,
+          "real_params": 7957775,
+          "real_params_m": 7.957775,
+          "trainable": 7957775
+        }
+      },
+      "metrics": {
+        "mse": 0.021461414332101685,
+        "rmse": 0.1464971478633686,
+        "mae": 0.06614500829507036,
+        "r2": 0.9728756866328298,
+        "pfa_mse_g2": 0.0005528530344157343,
+        "pfa_rmse_g": 0.02351282701879411,
+        "pfa_mae_g": 0.014929539218806383,
+        "pfa_r2": 0.9791118402160691,
+        "loss": 0.021501901640913614
+      },
+      "state_tensor_count": 129,
+      "strict_loads": [
+        {
+          "eval_len": 3000,
+          "passed": true,
+          "position_table": {
+            "before": [
+              1,
+              200,
+              256
+            ],
+            "after": [
+              1,
+              200,
+              256
+            ],
+            "mode": "linear, align_corners=True"
+          }
+        }
+      ],
+      "historical_split_matches": {
+        "train_indices": true,
+        "val_indices": true,
+        "test_indices": true,
+        "train_gms": true,
+        "val_gms": true,
+        "test_gms": true,
+        "scale_indices": true
+      },
+      "historical_split_pickle_sha256": "a5934fedad625f335b98572a33f8c9fb56b8ae78aaf8d8c473435c4773dba1c5"
+    }
+  ],
+  "fno_representation": {
+    "requested_n_modes": 512,
+    "spectral_modules": [
+      {
+        "name": "fno_blocks.convs.0",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      },
+      {
+        "name": "fno_blocks.convs.1",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      },
+      {
+        "name": "fno_blocks.convs.2",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      },
+      {
+        "name": "fno_blocks.convs.3",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      },
+      {
+        "name": "fno_blocks.convs.4",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      },
+      {
+        "name": "fno_blocks.convs.5",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      },
+      {
+        "name": "fno_blocks.convs.6",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      },
+      {
+        "name": "fno_blocks.convs.7",
+        "class": "SpectralConv",
+        "n_modes": [
+          257
+        ],
+        "max_n_modes": [
+          257
+        ],
+        "fft_norm": "forward",
+        "complex_data": false,
+        "source_path": "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py"
+      }
+    ],
+    "padding_class": "DomainPadding",
+    "domain_padding": [
+      0.1
+    ],
+    "padding_probes": [
+      {
+        "input_length": 1200,
+        "padded_length": 1440,
+        "sample_hz": 20.0,
+        "padded_duration_s": 72.0,
+        "padding_cache": "{'torch.Size([1200])': [120, 120]}",
+        "unpad_roundtrip_shape": [
+          1,
+          64,
+          1200
+        ]
+      },
+      {
+        "input_length": 3000,
+        "padded_length": 3600,
+        "sample_hz": 50.0,
+        "padded_duration_s": 72.0,
+        "padding_cache": "{'torch.Size([1200])': [120, 120], 'torch.Size([3000])': [300, 300]}",
+        "unpad_roundtrip_shape": [
+          1,
+          64,
+          3000
+        ]
+      }
+    ],
+    "branch_cutoff_warning": "Learned spectral branch truncation is not a hard cutoff of final predictions",
+    "positional_embedding": {
+      "class": "GridEmbeddingND",
+      "probes": [
+        {
+          "input_length": 1200,
+          "embedded_shape": [
+            1,
+            2,
+            1200
+          ],
+          "added_coordinate_channels": [
+            {
+              "first": 0.0,
+              "last": 0.9991666674613953,
+              "first_step": 0.0008333333535119891,
+              "minimum": 0.0,
+              "maximum": 0.9991666674613953
+            }
+          ]
+        },
+        {
+          "input_length": 3000,
+          "embedded_shape": [
+            1,
+            2,
+            3000
+          ],
+          "added_coordinate_channels": [
+            {
+              "first": 0.0,
+              "last": 0.999666690826416,
+              "first_step": 0.00033333332976326346,
+              "minimum": 0.0,
+              "maximum": 0.999666690826416
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "source_files": {
+    "/home/jason/.local/lib/python3.12/site-packages/scipy/signal/_signaltools.py": {
+      "sha256": "87d9dbb7f674ccfb9f13f138194ac14d0c87f856b970cf38553b24dfc9d71614",
+      "bytes": 196595
+    },
+    "/data/home/jason/Seismic-FNO/neuralop/models/fno.py": {
+      "sha256": "e34b6b3e5907cd81f1ff8fb7a3a27d5b88fc4bf6f497ccf3607b65b122b72c68",
+      "bytes": 18829
+    },
+    "/data/home/jason/Seismic-FNO/neuralop/layers/fno_block.py": {
+      "sha256": "0248a1b35049539981551208df1ae66c6788fb1e917ec6d9a21861e96cc4c444",
+      "bytes": 15124
+    },
+    "/data/home/jason/Seismic-FNO/neuralop/layers/padding.py": {
+      "sha256": "19ad03339fa375c1026cc635b380af23761f1c79ded4e64872909d195ffa4184",
+      "bytes": 4652
+    },
+    "/data/home/jason/Seismic-FNO/neuralop/layers/embeddings.py": {
+      "sha256": "fc1c20febe7f1983dcee3045b7e3ff8491176cfa0d6491886f98c391e5d9db44",
+      "bytes": 13723
+    },
+    "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/scripts/baseline_models.py": {
+      "sha256": "79c72bf6010a970170fd1828f5e4c8e7c6e1365dafd14fd48eb4a2e44c47b57f",
+      "bytes": 11176
+    },
+    "/data/home/jason/Seismic-FNO/6-code/O3-generalization/scripts/train_eval_sampling_ood.py": {
+      "sha256": "4bab63268bb9bf39ea2bfa24dc68416acd02806c018f2e0e2a4d9e75bd3a6d02",
+      "bytes": 17283
+    },
+    "/data/home/jason/Seismic-FNO/6-code/O7-revision/E4/scripts/rope_resolution.py": {
+      "sha256": "c2a07c83817fd50ae8a1b9f9d121020950afa04c662fdfd450e46ea2fb4c034f",
+      "bytes": 15833
+    },
+    "/data/home/jason/Seismic-FNO/6-code/O7-revision/E4/scripts/run_pipeline.py": {
+      "sha256": "a013409592095774169e764402d8828aba0f832f17423b35ea9df7c4031bf385",
+      "bytes": 1604
+    },
+    "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/scripts/cache_data.py": {
+      "sha256": "666aab91944b7c99f9d4b0b26c173f152206c7658d12ded1502494a71f07dd5f",
+      "bytes": 1569
+    },
+    "/data/home/jason/Seismic-FNO/6-code/shared/utils/splits.py": {
+      "sha256": "7c7962cc19f004cca6e0e6424f0a142d635d2d70e295436c50ef358cb7cc0918",
+      "bytes": 3567
+    },
+    "/data/home/jason/Seismic-FNO/neuralop/__init__.py": {
+      "sha256": "b43d92462257fd8909e0a9f665ecaf8148f6390c952df311c1fb30212c5cde5a",
+      "bytes": 302
+    },
+    "/data/home/jason/Seismic-FNO/neuralop/layers/spectral_convolution.py": {
+      "sha256": "ef5f05ee6841e23c9aa04a7ef2b59c2f75dc56b51efa7e06ecd254c5c45bc6a7",
+      "bytes": 19094
+    }
+  },
+  "evaluation_fft": {
+    "rfft_norm": "torch default backward (unnormalized forward FFT)",
+    "parseval_weights": "DC=1, interior positive bins=2, even-length Nyquist=1",
+    "time_sum_of_squares": "weighted_rfft_squared_sum/N",
+    "integrated_energy": "dt*weighted_rfft_squared_sum/N",
+    "equal_grid_error_reference_ratio": "normalization cancels for error/reference on same evaluation grid",
+    "warning": "Do not compare unnormalized FFT energy across grids; matched 20Hz third band is empty"
+  },
+  "resampling": {
+    "function": "scipy.signal.resample_poly",
+    "actual_signature": "(x, up, down, axis=0, window=('kaiser', 5.0), padtype='constant', cval=None)",
+    "train20_up_down": [
+      2,
+      5
+    ],
+    "historical_train25_up_down": [
+      1,
+      2
+    ],
+    "wrapped_output20_to50_up_down": [
+      5,
+      2
+    ],
+    "source_file": "/home/jason/.local/lib/python3.12/site-packages/scipy/signal/_signaltools.py",
+    "source_file_sha256": "87d9dbb7f674ccfb9f13f138194ac14d0c87f856b970cf38553b24dfc9d71614",
+    "direct_test_input": "native 50Hz/3000-point ground motion; no signal resampling",
+    "direct_test_target": "native 50Hz/3000-point reference response"
+  },
+  "cross_host_database_reference": {
+    "e3_audit_file": "/tmp/e4_e3_database_audit.json",
+    "e3_audit_file_sha256": "5430bab4a2a3cc7b82adaefd18b1e08f758f13cf601de5abf911b0842cd27bb1",
+    "source_host": "5090",
+    "hash_definition": "SHA256 of concatenated C-order raw dtype bytes in full row order"
+  },
+  "original_evaluation_reproduction": {
+    "direct_rows_checked": 4,
+    "absolute_tolerance": 1e-12,
+    "all_passed": true,
+    "checks": [
+      {
+        "model": "FNO-Large",
+        "train_hz": "20",
+        "metric_differences": {
+          "mse": 0.0,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "r2": 0.0,
+          "pfa_mse_g2": 0.0,
+          "pfa_rmse_g": 0.0,
+          "pfa_mae_g": 0.0,
+          "pfa_r2": 0.0
+        },
+        "archived_evaluation_sha256": "c0c42b526a4d5801e9c22bca639c3df8172eec957e6c851380294c568f0068e4"
+      },
+      {
+        "model": "FNO-Large",
+        "train_hz": "50",
+        "metric_differences": {
+          "mse": 0.0,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "r2": 0.0,
+          "pfa_mse_g2": 0.0,
+          "pfa_rmse_g": 0.0,
+          "pfa_mae_g": 0.0,
+          "pfa_r2": 0.0
+        },
+        "archived_evaluation_sha256": "4aec2b6237abd838b2125ddf5cde494af24472a8e53292dad2920f7da98dc846"
+      },
+      {
+        "model": "Transformer",
+        "train_hz": "20",
+        "metric_differences": {
+          "mse": 0.0,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "r2": 0.0,
+          "pfa_mse_g2": 0.0,
+          "pfa_rmse_g": 0.0,
+          "pfa_mae_g": 0.0,
+          "pfa_r2": 0.0
+        },
+        "archived_evaluation_sha256": "b146df75cf7c66a8cb858b22fc93c6c606fecb3c397d88450bb0665e41a86e8f"
+      },
+      {
+        "model": "Transformer",
+        "train_hz": "50",
+        "metric_differences": {
+          "mse": 0.0,
+          "rmse": 0.0,
+          "mae": 0.0,
+          "r2": 0.0,
+          "pfa_mse_g2": 0.0,
+          "pfa_rmse_g": 0.0,
+          "pfa_mae_g": 0.0,
+          "pfa_r2": 0.0
+        },
+        "archived_evaluation_sha256": "dc6d22ae18c426d1503c0dd05d283ac2f31fad7dd78208b1a1813966ebf1ccf6"
+      }
+    ],
+    "current_result_sha256": "d0996d03987c90a96b44233762e1efc020e9a2dc27d582ab1aade11b1927bb00",
+    "single_F6_case_evidence": "F6 H5/cache verified; all 4 direct old evaluations exactly reproduced; original manuscript benchmark is F-6"
+  },
+  "rotary_training_config_at_start": {
+    "model": "Transformer-RoPE",
+    "epochs": 50,
+    "train_hz": 20,
+    "patch_size": 15,
+    "d_model": 256,
+    "n_heads": 8,
+    "n_layers": 10,
+    "seed": 42,
+    "batch_size": 64,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "scheduler_step": 20,
+    "scheduler_gamma": 0.5,
+    "grad_clip": 1.0,
+    "rope_base": 10000,
+    "positions": "token index during 20Hz training",
+    "precision": "FP32",
+    "selected_by": "20Hz validation MSE",
+    "parameters": {
+      "numel": 7906575,
+      "numel_m": 7.906575,
+      "real_params": 7906575,
+      "real_params_m": 7.906575,
+      "trainable": 7906575
+    },
+    "script_sha256": "70eee6ad992430bd591fcecba04fbe3209b8b950f0c39fc4ab5f53af025e15ad"
+  },
+  "rotary_training_config_sha256": "4510bef78114072aced475a39e810a3c7b1a891d74dcde2e3834101fe94b965d",
+  "rotary_preflight": {
+    "sha256": "0d668660a0a119495f1987db44b2a6a5fd5b87880092e7526b3aba27fab14420",
+    "results": {
+      "forward_shape": [
+        64,
+        1,
+        1200
+      ],
+      "finite": true,
+      "seconds_per_step": 0.14761694272359213,
+      "peak_gib": 1.1537480354309082,
+      "parameters": {
+        "numel": 7906575,
+        "numel_m": 7.906575,
+        "real_params": 7906575,
+        "real_params_m": 7.906575,
+        "trainable": 7906575
+      },
+      "torch": "2.12.0+cu130",
+      "cuda": "13.0",
+      "manual_attention_max_diff": 0.0,
+      "rotary_norm_and_relative_position_checks": "passed"
+    }
+  },
+  "pipeline_status_at_audit": {
+    "pid": 2763101,
+    "status": "complete",
+    "started_at_epoch_s": 1791969682.2686448,
+    "completed_modes": [
+      "original",
+      "train",
+      "rotary"
+    ],
+    "current_mode": "rotary",
+    "finished_at_epoch_s": 1791972637.5043504
+  },
+  "rotary_final_checkpoint": {
+    "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E4/results/rotary_best.pt",
+    "sha256": "3665693a8237cd195b2b5abbe6601f2aa7237a24c6c5edfea569849c0fe02398",
+    "selected_epoch": 49,
+    "validation_metrics": {
+      "mse": 0.02064356648034287,
+      "rmse": 0.14367869181038248,
+      "mae": 0.06185938495539318,
+      "r2": 0.9737192001804148,
+      "pfa_mse_g2": 0.0004037518853359796,
+      "pfa_rmse_g": 0.020093578211358463,
+      "pfa_mae_g": 0.012762925061043243,
+      "pfa_r2": 0.9843561254605335,
+      "loss": 0.02068202260829439
+    },
+    "config": {
+      "model": "Transformer-RoPE",
+      "epochs": 50,
+      "train_hz": 20,
+      "patch_size": 15,
+      "d_model": 256,
+      "n_heads": 8,
+      "n_layers": 10,
+      "seed": 42,
+      "batch_size": 64,
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "scheduler_step": 20,
+      "scheduler_gamma": 0.5,
+      "grad_clip": 1.0,
+      "rope_base": 10000,
+      "positions": "token index during 20Hz training",
+      "precision": "FP32",
+      "selected_by": "20Hz validation MSE",
+      "parameters": {
+        "numel": 7906575,
+        "numel_m": 7.906575,
+        "real_params": 7906575,
+        "real_params_m": 7.906575,
+        "trainable": 7906575
+      },
+      "script_sha256": "70eee6ad992430bd591fcecba04fbe3209b8b950f0c39fc4ab5f53af025e15ad"
+    },
+    "strict_load_passed": true,
+    "selection_rule": "best 20 Hz validation MSE; test not used"
+  },
+  "rotary_initialization": {
+    "seed": 42,
+    "trunk_state_tensors_compared": 128,
+    "all_equal": true,
+    "removed_absolute_position_parameters": 20480,
+    "d_head": 32,
+    "training_position": "token index j at 20Hz",
+    "50hz_physical_position": "(j+0.5)*20/50-0.5; common offset cancels in Q/K relative rotations",
+    "patch_span_train_s": 0.75,
+    "patch_span_eval50_s": 0.3,
+    "limitation": "Physical-time RoPE preserves positional time scale, but fixed 15-sample patch projections change physical support"
+  }
+}

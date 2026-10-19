@@ -1,0 +1,10 @@
+{
+  "structures": [
+    "F10",
+    "FW10"
+  ],
+  "n_component_probability_rows": 54,
+  "n_probability_error_rows": 27,
+  "n_scenario_summary_rows": 4,
+  "source_component_config": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\configs\\o5_component_scenarios.json"
+}

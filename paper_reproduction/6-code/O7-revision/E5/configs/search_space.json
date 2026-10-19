@@ -1,0 +1,1493 @@
+{
+  "FNO": [
+    {
+      "trial_id": "FNO_00",
+      "original": true,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_01",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_02",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_03",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_04",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_05",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_06",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_07",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_08",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_09",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_10",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_11",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_12",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_13",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_14",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_15",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_16",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_17",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_18",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_19",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_20",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_21",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_22",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_23",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_24",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_25",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_26",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_27",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_28",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_29",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_30",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_31",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_32",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_33",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_34",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_35",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_36",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_37",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_38",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_39",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_40",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_41",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_42",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_43",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_44",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_45",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_46",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_47",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_48",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_49",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_50",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_51",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_52",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_53",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_54",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_55",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_56",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_57",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_58",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_59",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_60",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_61",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 1024,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_62",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_63",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_64",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_65",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_66",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_67",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_68",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_69",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_70",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_71",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_72",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_73",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_74",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 1024,
+      "hidden_channels": 32,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_75",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 256,
+      "hidden_channels": 32,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_76",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 8
+    },
+    {
+      "trial_id": "FNO_77",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 4
+    },
+    {
+      "trial_id": "FNO_78",
+      "original": false,
+      "lr": 0.003,
+      "n_modes": 512,
+      "hidden_channels": 32,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_79",
+      "original": false,
+      "lr": 0.001,
+      "n_modes": 512,
+      "hidden_channels": 64,
+      "n_layers": 12
+    },
+    {
+      "trial_id": "FNO_80",
+      "original": false,
+      "lr": 0.0003,
+      "n_modes": 512,
+      "hidden_channels": 128,
+      "n_layers": 4
+    }
+  ],
+  "Transformer": [
+    {
+      "trial_id": "Transformer_00",
+      "original": true,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_01",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_02",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_03",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_04",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_05",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_06",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_07",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_08",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_09",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_10",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_11",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_12",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_13",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_14",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_15",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_16",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_17",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_18",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_19",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_20",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_21",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_22",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_23",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_24",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_25",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_26",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_27",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_28",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_29",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_30",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_31",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_32",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_33",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_34",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_35",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_36",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_37",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_38",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_39",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_40",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_41",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_42",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_43",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_44",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_45",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_46",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_47",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_48",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_49",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_50",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_51",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_52",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_53",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_54",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_55",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_56",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_57",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_58",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_59",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_60",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_61",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 384,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_62",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_63",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_64",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_65",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_66",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_67",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_68",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_69",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_70",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_71",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_72",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_73",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_74",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 384,
+      "n_layers": 6,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_75",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 128,
+      "n_layers": 6,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_76",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 15
+    },
+    {
+      "trial_id": "Transformer_77",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 10
+    },
+    {
+      "trial_id": "Transformer_78",
+      "original": false,
+      "lr": 0.001,
+      "d_model": 256,
+      "n_layers": 6,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_79",
+      "original": false,
+      "lr": 0.0003,
+      "d_model": 256,
+      "n_layers": 10,
+      "patch_size": 30
+    },
+    {
+      "trial_id": "Transformer_80",
+      "original": false,
+      "lr": 0.0001,
+      "d_model": 256,
+      "n_layers": 14,
+      "patch_size": 10
+    }
+  ],
+  "BiLSTM": [
+    {
+      "trial_id": "BiLSTM_00",
+      "original": true,
+      "lr": 0.0003,
+      "hidden_size": 512,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_01",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 512,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_02",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 768,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_03",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 768,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_04",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 256,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_05",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 512,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_06",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 512,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_07",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 256,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_08",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 256,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_09",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 768,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_10",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 512,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_11",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 256,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_12",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 256,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_13",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 256,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_14",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 256,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_15",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 512,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_16",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 768,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_17",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 768,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_18",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 512,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_19",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 256,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_20",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 768,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_21",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 768,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_22",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 512,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_23",
+      "original": false,
+      "lr": 0.001,
+      "hidden_size": 768,
+      "num_layers": 1
+    },
+    {
+      "trial_id": "BiLSTM_24",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 768,
+      "num_layers": 3
+    },
+    {
+      "trial_id": "BiLSTM_25",
+      "original": false,
+      "lr": 0.0003,
+      "hidden_size": 256,
+      "num_layers": 2
+    },
+    {
+      "trial_id": "BiLSTM_26",
+      "original": false,
+      "lr": 0.0001,
+      "hidden_size": 512,
+      "num_layers": 1
+    }
+  ]
+}

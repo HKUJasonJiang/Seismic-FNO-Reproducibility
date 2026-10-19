@@ -1,0 +1,5 @@
+{
+  "training_runs_csv": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/compiled/training_runs.csv",
+  "training_runs_json": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/compiled/training_runs.json",
+  "table4_metrics_csv": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/compiled/table4_metrics.csv"
+}

@@ -1,0 +1,96 @@
+{
+  "hf_repo": "JasonXF/SeFNO",
+  "hf_repo_type": "dataset",
+  "o4_run_prefix": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct",
+  "base_data_dir": "data",
+  "gm_local_path": "data/MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+  "gm_hf_path": "MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+  "main_cases": [
+    "F10",
+    "FW10"
+  ],
+  "validation_cases": [
+    "F6"
+  ],
+  "supplementary_cases": [
+    "F2",
+    "F6",
+    "F10",
+    "FW10",
+    "FW14",
+    "FW17"
+  ],
+  "response_scope": "roof_only",
+  "response_scope_note": "The current O4 HDF5 files store Acc_Floor_Response with shape [sample, time], so O5 can analyze roof/target-floor response. Full floor-by-floor placement maps require all-floor response files.",
+  "dt_s": 0.02,
+  "structures": {
+    "F2": {
+      "paper_label": "F-2",
+      "scenario_label": "low-rise frame",
+      "type": "Frame",
+      "stories": 2,
+      "height_m": 6.0,
+      "roof_floor_label": "Floor 3 / roof",
+      "local_hdf5_path": "data/MDOF/knet-250/Data/fno/Blg_F2_6m_IM7_st0.h5",
+      "hdf5_hf_path": "MDOF/knet-250/Data/fno/Blg_F2_6m_IM7_st0.h5",
+      "checkpoint_hf_path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F2/checkpoints/FNO-Large_F2_best.pt"
+    },
+    "F6": {
+      "paper_label": "F-6",
+      "scenario_label": "validation hospital-style frame case",
+      "type": "Frame",
+      "stories": 6,
+      "height_m": 18.0,
+      "roof_floor_label": "Floor 7 / roof",
+      "local_hdf5_path": "data/MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+      "hdf5_hf_path": "MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+      "checkpoint_hf_path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F6/checkpoints/FNO-Large_F6_best.pt"
+    },
+    "F10": {
+      "paper_label": "F-10",
+      "scenario_label": "main case A: 10-story frame, hospital inventory",
+      "scenario_id": "hospital",
+      "type": "Frame",
+      "stories": 10,
+      "height_m": 30.0,
+      "roof_floor_label": "Floor 11 / roof",
+      "local_hdf5_path": "data/MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st0.h5",
+      "hdf5_hf_path": "MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st0.h5",
+      "checkpoint_hf_path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/F10/checkpoints/FNO-Large_F10_best.pt"
+    },
+    "FW10": {
+      "paper_label": "FW-10",
+      "scenario_label": "main case B: 10-story frame-shear-wall, data-center inventory",
+      "scenario_id": "data_center",
+      "type": "Frame-shear wall",
+      "stories": 10,
+      "height_m": 30.0,
+      "roof_floor_label": "Floor 11 / roof",
+      "local_hdf5_path": "data/MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st1.h5",
+      "hdf5_hf_path": "MDOF/knet-250/Data/fno/Blg_F10_30m_IM7_st1.h5",
+      "checkpoint_hf_path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW10/checkpoints/FNO-Large_FW10_best.pt"
+    },
+    "FW14": {
+      "paper_label": "FW-14",
+      "scenario_label": "supplementary taller frame-wall case",
+      "type": "Frame-shear wall",
+      "stories": 14,
+      "height_m": 42.0,
+      "roof_floor_label": "Floor 15 / roof",
+      "local_hdf5_path": "data/MDOF/knet-250/Data/fno/Blg_F14_42m_IM7_st1.h5",
+      "hdf5_hf_path": "MDOF/knet-250/Data/fno/Blg_F14_42m_IM7_st1.h5",
+      "checkpoint_hf_path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW14/checkpoints/FNO-Large_FW14_best.pt"
+    },
+    "FW17": {
+      "paper_label": "FW-17",
+      "scenario_label": "supplementary high-rise frame-wall case",
+      "type": "Frame-shear wall",
+      "stories": 17,
+      "height_m": 52.0,
+      "roof_floor_label": "Floor 18 / roof",
+      "local_hdf5_path": "data/MDOF/knet-250/Data/fno/Blg_F17_52m_IM7_st1.h5",
+      "hdf5_hf_path": "MDOF/knet-250/Data/fno/Blg_F17_52m_IM7_st1.h5",
+      "checkpoint_hf_path": "experiments/O4_multi_structure/2026-06-09_xgb1_fno_large_6struct/runs/FW17/checkpoints/FNO-Large_FW17_best.pt"
+    }
+  }
+}

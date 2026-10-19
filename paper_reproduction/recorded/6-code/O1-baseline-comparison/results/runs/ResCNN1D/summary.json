@@ -1,0 +1,14 @@
+{
+  "model": "ResCNN1D",
+  "best_val_mse": 0.1459837291314495,
+  "train_time_s": 22628.45619750023,
+  "peak_gpu_gb": 3.494046688079834,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/runs/ResCNN1D/checkpoints/ResCNN1D_best.pt",
+  "params": {
+    "numel": 7355137,
+    "numel_m": 7.355137,
+    "real_params": 7355137,
+    "real_params_m": 7.355137,
+    "trainable": 7355137
+  }
+}

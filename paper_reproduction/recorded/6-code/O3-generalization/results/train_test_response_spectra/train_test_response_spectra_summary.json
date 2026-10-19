@@ -1,0 +1,16 @@
+{
+  "gm_h5": "D:\\BaiduNetdiskDownload\\SesimicTransformerData\\MDOF\\All_GMs\\GMs_knet_3474_AF_57.h5",
+  "split_pkl": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\shared\\split_indices\\dataset_indices.pkl",
+  "scale_id": 9,
+  "train_pool_gm_count": 3000,
+  "test_gm_count": 474,
+  "dt_s": 0.02,
+  "damping_ratio": 0.05,
+  "period_min_s": 0.05,
+  "period_max_s": 6.0,
+  "period_count": 160,
+  "train_pga_median_g": 0.10181713104248047,
+  "test_pga_median_g": 0.10191859304904938,
+  "figure": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O3-generalization\\results\\train_test_response_spectra\\train_test_response_spectra_overlay.png",
+  "curve_cloud_figure": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O3-generalization\\results\\train_test_response_spectra\\train_test_response_spectra_curve_cloud.png"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "Transformer",
+  "seed": 42,
+  "epochs": 50,
+  "batch_size": 64,
+  "lr": 0.0003,
+  "base_lr": 0.001,
+  "bilstm_lr": 0.0003,
+  "transformer_lr": 0.0003,
+  "weight_decay": 0.0001,
+  "scheduler_step": 20,
+  "scheduler_gamma": 0.5,
+  "grad_clip": 1.0,
+  "split": "fixed_474_test_full_57_factors",
+  "params": {
+    "numel": 7957775,
+    "numel_m": 7.957775,
+    "real_params": 7957775,
+    "real_params_m": 7.957775,
+    "trainable": 7957775
+  }
+}

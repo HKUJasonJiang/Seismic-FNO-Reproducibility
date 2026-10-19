@@ -1,0 +1,61 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "packaged source/evidence hashes",
+      "files": 436
+    },
+    {
+      "check": "pinned public GM/F6 content hashes match E5 training sources",
+      "passed": true
+    },
+    {
+      "check": "frozen grouped splits and no GM leakage",
+      "passed": true
+    },
+    {
+      "check": "complete validation-only candidate selection",
+      "screen_trials": 54,
+      "final_trials": 6,
+      "results": [
+        {
+          "family": "FNO",
+          "selected_trial": "FNO_07",
+          "epochs": 50,
+          "r2": 0.9473015267043837
+        },
+        {
+          "family": "Transformer",
+          "selected_trial": "Transformer_07",
+          "epochs": 50,
+          "r2": 0.9751498631584945
+        },
+        {
+          "family": "BiLSTM",
+          "selected_trial": "BiLSTM_05",
+          "epochs": 50,
+          "r2": 0.9878085959311249
+        },
+        {
+          "family": "ResCNN1D",
+          "selected_trial": "ResCNN1D_03",
+          "epochs": 50,
+          "r2": 0.8701055728736831
+        },
+        {
+          "family": "UNet1D",
+          "selected_trial": "UNet1D_05",
+          "epochs": 50,
+          "r2": 0.7800959873803828
+        },
+        {
+          "family": "MLP",
+          "selected_trial": "MLP_03",
+          "epochs": 50,
+          "r2": 0.38714950527799796
+        }
+      ]
+    }
+  ],
+  "scope": "Saved evidence integrity and arithmetic; not a rerun of GPU training or checkpoint inference."
+}

@@ -1,0 +1,16 @@
+{
+  "model": "FNO-Large",
+  "run_id": "S-50Hz",
+  "best_epoch": 22,
+  "best_val_mse": 0.043961879449736535,
+  "train_time_s": 11194.920381069183,
+  "peak_gpu_gb": 3.2975897789001465,
+  "best_checkpoint": "6-code/O3-generalization/results/sampling_ood/runs/FNO-Large/S-50Hz/checkpoints/FNO-Large_S-50Hz_best.pt",
+  "params": {
+    "numel": 8505793,
+    "numel_m": 8.505793,
+    "real_params": 16927169,
+    "real_params_m": 16.927169,
+    "trainable": 8505793
+  }
+}

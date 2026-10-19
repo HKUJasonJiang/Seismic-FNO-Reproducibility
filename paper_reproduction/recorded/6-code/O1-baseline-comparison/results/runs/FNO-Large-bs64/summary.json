@@ -1,0 +1,14 @@
+{
+  "model": "FNO-Large-bs64",
+  "best_val_mse": 0.043961879449736535,
+  "train_time_s": 7784.3661642074585,
+  "peak_gpu_gb": 3.2975897789001465,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/runs/FNO-Large-bs64/checkpoints/FNO-Large-bs64_best.pt",
+  "params": {
+    "numel": 8505793,
+    "numel_m": 8.505793,
+    "real_params": 16927169,
+    "real_params_m": 16.927169,
+    "trainable": 8505793
+  }
+}

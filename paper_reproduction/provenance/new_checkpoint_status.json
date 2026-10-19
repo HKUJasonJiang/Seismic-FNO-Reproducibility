@@ -1,0 +1,131 @@
+[
+  {
+    "family": "BiLSTM",
+    "trial": "BiLSTM_05",
+    "public_url": null,
+    "status": "publication_pending",
+    "summary_evidence": "recorded/6-code/O7-revision/E5/results/BiLSTM/full/BiLSTM_05/summary.json",
+    "historical_checkpoint_audit": {
+      "best": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/BiLSTM/full/BiLSTM_05/checkpoints/best.pt",
+        "size": 58845766,
+        "sha256": "45f51bc57e8ee2eb45b6f72f7dced76da75533250503e5abc1bd45e4231230fc"
+      },
+      "last": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/BiLSTM/full/BiLSTM_05/checkpoints/last.pt",
+        "size": 176555743,
+        "sha256": "c9ccc200f93fa82701ea4bc5908df096e38dba774183ec7cf76ebb62b3a29ad0"
+      }
+    }
+  },
+  {
+    "family": "Transformer",
+    "trial": "Transformer_07",
+    "public_url": null,
+    "status": "publication_pending",
+    "summary_evidence": "recorded/6-code/O7-revision/E5/results/Transformer/full/Transformer_07/summary.json",
+    "historical_checkpoint_audit": {
+      "best": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/full/Transformer_07/checkpoints/best.pt",
+        "size": 44522616,
+        "sha256": "04c1318585e6eaf7f385175501906bbc4b5a55a0b985d1c9696eb9d6765c4c32"
+      },
+      "last": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/full/Transformer_07/checkpoints/last.pt",
+        "size": 133595407,
+        "sha256": "e12b20bc9659a2eba9b4ac850b7f97991bcf43f4b1dafa3a2ef2b907b6e480d7"
+      }
+    }
+  },
+  {
+    "family": "FNO",
+    "trial": "FNO_07",
+    "public_url": null,
+    "status": "publication_pending",
+    "summary_evidence": "recorded/6-code/O7-revision/E5/results/FNO/full/FNO_07/summary.json",
+    "historical_checkpoint_audit": {
+      "best": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/FNO/full/FNO_07/checkpoints/best.pt",
+        "size": 270841697,
+        "sha256": "2dabda707a9f07cf149413c096e484717c523cb5239ec22bf982f07252e910fd"
+      },
+      "last": {
+        "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/FNO/full/FNO_07/checkpoints/last.pt",
+        "size": 812535939,
+        "sha256": "88f43e6e21ef1bfb1fee6c6da2cc87561a61672a04c386cb43b49d07caae70cb"
+      }
+    }
+  },
+  {
+    "family": "ResCNN1D",
+    "trial": "ResCNN1D_03",
+    "public_url": null,
+    "status": "publication_pending",
+    "summary_evidence": "recorded/6-code/O7-revision/E5_additional_20261017/results/ResCNN1D/full/ResCNN1D_03/summary.json"
+  },
+  {
+    "family": "UNet1D",
+    "trial": "UNet1D_05",
+    "public_url": null,
+    "status": "publication_pending",
+    "summary_evidence": "recorded/6-code/O7-revision/E5_additional_20261017/results/UNet1D/full/UNet1D_05/summary.json"
+  },
+  {
+    "family": "MLP",
+    "trial": "MLP_03",
+    "public_url": null,
+    "status": "publication_pending",
+    "summary_evidence": "recorded/6-code/O7-revision/E5_additional_20261017/results/MLP/full/MLP_03/summary.json"
+  },
+  {
+    "family": "Transformer-RoPE",
+    "public_url": null,
+    "status": "publication_pending",
+    "historical_checkpoint_audit": {
+      "path": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E4/results/rotary_best.pt",
+      "sha256": "3665693a8237cd195b2b5abbe6601f2aa7237a24c6c5edfea569849c0fe02398",
+      "selected_epoch": 49,
+      "validation_metrics": {
+        "mse": 0.02064356648034287,
+        "rmse": 0.14367869181038248,
+        "mae": 0.06185938495539318,
+        "r2": 0.9737192001804148,
+        "pfa_mse_g2": 0.0004037518853359796,
+        "pfa_rmse_g": 0.020093578211358463,
+        "pfa_mae_g": 0.012762925061043243,
+        "pfa_r2": 0.9843561254605335,
+        "loss": 0.02068202260829439
+      },
+      "config": {
+        "model": "Transformer-RoPE",
+        "epochs": 50,
+        "train_hz": 20,
+        "patch_size": 15,
+        "d_model": 256,
+        "n_heads": 8,
+        "n_layers": 10,
+        "seed": 42,
+        "batch_size": 64,
+        "lr": 0.0003,
+        "weight_decay": 0.0001,
+        "scheduler_step": 20,
+        "scheduler_gamma": 0.5,
+        "grad_clip": 1.0,
+        "rope_base": 10000,
+        "positions": "token index during 20Hz training",
+        "precision": "FP32",
+        "selected_by": "20Hz validation MSE",
+        "parameters": {
+          "numel": 7906575,
+          "numel_m": 7.906575,
+          "real_params": 7906575,
+          "real_params_m": 7.906575,
+          "trainable": 7906575
+        },
+        "script_sha256": "70eee6ad992430bd591fcecba04fbe3209b8b950f0c39fc4ab5f53af025e15ad"
+      },
+      "strict_load_passed": true,
+      "selection_rule": "best 20 Hz validation MSE; test not used"
+    }
+  }
+]

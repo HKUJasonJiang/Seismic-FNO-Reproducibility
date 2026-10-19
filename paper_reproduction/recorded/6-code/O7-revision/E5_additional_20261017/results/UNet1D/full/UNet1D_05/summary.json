@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "family": "UNet1D",
+  "stage": "full",
+  "trial_id": "UNet1D_05",
+  "best_val_mse": 0.1732658527456064,
+  "train_time_s": 11068.439246080816,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5_additional_20261017/results/UNet1D/full/UNet1D_05/checkpoints/best.pt",
+  "params": {
+    "numel": 31458689,
+    "numel_m": 31.458689,
+    "real_params": 31458689,
+    "real_params_m": 31.458689,
+    "trainable": 31458689
+  },
+  "test_used_for_selection": false,
+  "test_same_grid": {
+    "mse": 0.17106992302079285,
+    "rmse": 0.4136059997398404,
+    "mae": 0.22742959895105616,
+    "r2": 0.7800959873803828,
+    "pfa_mse_g2": 0.0049900087407353105,
+    "pfa_rmse_g": 0.07063999391800166,
+    "pfa_mae_g": 0.05629095323072195,
+    "pfa_r2": 0.8120131189681355,
+    "seconds": 10.614212717860937,
+    "evaluated_samples": 27018,
+    "evaluated_scalars": 81054000
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "source_workbook": "resources/3.2 Provided Fragility Data/3.2 Provided Fragility Data/FEMAP-58_PACTInputMatrix_v3.1.2.xlsx",
+  "demand_filter": {
+    "demand_parameter": "Peak Floor Acceleration",
+    "demand_unit": "g"
+  },
+  "scenario_assignments": {
+    "F10": "hospital",
+    "FW10": "data_center"
+  },
+  "scenarios": {
+    "hospital": {
+      "label": "Hospital roof/top-floor acceleration-sensitive inventory",
+      "notes": "Selected components are official PACT PFA/g rows. The current O4 HDF5 response is roof-only, so results are interpreted as roof/top-floor equipment screening.",
+      "components": [
+        {
+          "component_id": "C3032.001d",
+          "label": "Suspended ceiling, large area",
+          "source_row": 413,
+          "hierarchy": "Seq(DS1,DS2,DS3)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": true,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 0.56, "beta": 0.25, "branch_probability": 1.0},
+            {"state": "DS2", "theta_g": 1.08, "beta": 0.25, "branch_probability": 1.0},
+            {"state": "DS3", "theta_g": 1.31, "beta": 0.25, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "D4011.041a",
+          "label": "Fire sprinkler drop, hard ceiling",
+          "source_row": 583,
+          "hierarchy": "Seq(DS1,DS2)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": true,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 0.55, "beta": 0.40, "branch_probability": 1.0},
+            {"state": "DS2", "theta_g": 0.95, "beta": 0.40, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "D3031.011a",
+          "label": "Chiller, unanchored",
+          "source_row": 432,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 0.20, "beta": 0.40, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "D3041.101a",
+          "label": "HVAC fan, unanchored",
+          "source_row": 548,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 0.50, "beta": 0.40, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "E2022.023",
+          "label": "Desktop electronics, smooth surface",
+          "source_row": 689,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 0.40, "beta": 0.50, "branch_probability": 1.0}
+          ]
+        }
+      ]
+    },
+    "data_center": {
+      "label": "Data-center roof/top-floor acceleration-sensitive inventory",
+      "notes": "Battery rack is retained because it is data-center relevant, but its PACT hierarchy is simultaneous; its DS probabilities are reported as occurrence probabilities, not as exclusive stacked states.",
+      "components": [
+        {
+          "component_id": "C3027.002",
+          "label": "Raised access floor, seismically rated",
+          "source_row": 409,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 1.50, "beta": 0.40, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "D3067.011a",
+          "label": "Control panel, unanchored",
+          "source_row": 571,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 0.69, "beta": 0.40, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "D5011.011b",
+          "label": "Transformer, 100-350 kVA, unanchored",
+          "source_row": 594,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 1.01, "beta": 0.60, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "D5012.021b",
+          "label": "Low-voltage switchgear, unanchored",
+          "source_row": 614,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 1.28, "beta": 0.40, "branch_probability": 1.0}
+          ]
+        },
+        {
+          "component_id": "D5092.011a",
+          "label": "Battery rack, unanchored",
+          "source_row": 645,
+          "hierarchy": "Simul(DS1,DS2,DS3)",
+          "probability_mode": "simultaneous_occurrence",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 1.11, "beta": 0.60, "branch_probability": 1.0},
+            {"state": "DS2", "theta_g": 1.11, "beta": 0.60, "branch_probability": 0.5},
+            {"state": "DS3", "theta_g": 1.11, "beta": 0.60, "branch_probability": 0.1}
+          ]
+        },
+        {
+          "component_id": "E2022.022",
+          "label": "Desktop electronics, slip-resistant surface",
+          "source_row": 688,
+          "hierarchy": "Seq(DS1)",
+          "probability_mode": "exclusive_sequential",
+          "demand_location_use_floor_above": false,
+          "damage_states": [
+            {"state": "DS1", "theta_g": 1.00, "beta": 0.50, "branch_probability": 1.0}
+          ]
+        }
+      ]
+    }
+  }
+}

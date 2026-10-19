@@ -1,0 +1,17 @@
+{
+  "structure_id": "FW10",
+  "paper_label": "FW-10",
+  "n_records": 27018,
+  "sample_indexing": "all_available",
+  "sample_indices_count": 27018,
+  "n_floors": 1,
+  "n_periods": 90,
+  "damping_ratio": 0.05,
+  "period_min_s": 0.05,
+  "period_max_s": 4.0,
+  "frs_npz": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\frs_full\\FW10_roof_frs_5pct.npz",
+  "fem_sa_p90_max_g": 2.7328691482543945,
+  "fno_sa_p90_max_g": 2.691667079925537,
+  "sa_mae_g": 0.039521533995866776,
+  "sa_rmse_g": 0.07871922105550766
+}

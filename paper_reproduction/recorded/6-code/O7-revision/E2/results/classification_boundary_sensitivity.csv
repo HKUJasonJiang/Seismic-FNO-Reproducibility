@@ -1,0 +1,19 @@
+structure,band,capacity_g,boundary_difference_interval_left_percent,boundary_difference_interval_right_percent,width_pp,lower_boundary_convention,upper_boundary_convention,direction
+F10,rigid_mep,0.4,43.32482049004368,50.85591087423199,7.531090384188316,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+F10,rigid_mep,1.0,0.5144718335924199,1.1843955881264343,0.6699237545340144,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+F10,rigid_mep,2.0,0.0,0.004626545266118884,0.004626545266118884,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+F10,storage_rack_cross_aisle,0.4,76.62265560333516,76.70677460817367,0.08411900483852319,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO more restrictive
+F10,storage_rack_cross_aisle,1.0,15.572110175707776,16.257175351112725,0.6850651754049503,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+F10,storage_rack_cross_aisle,2.0,0.26245129509619847,0.28331280829615274,0.020861513199954246,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+F10,storage_rack_down_aisle,0.4,41.04442354334583,41.19214641219579,0.14772286884995878,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO more restrictive
+F10,storage_rack_down_aisle,1.0,4.378127000300453,4.742589907382007,0.3644629070815537,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+F10,storage_rack_down_aisle,2.0,0.019703639839235718,0.020030219505079404,0.00032657966584368544,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,rigid_mep,0.4,78.41439040639574,80.80076245465986,2.386372048264118,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,rigid_mep,1.0,34.139277518691244,43.749537345473385,9.610259826782148,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,rigid_mep,2.0,2.705603671626323,4.728329261973499,2.022725590347176,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,storage_rack_cross_aisle,0.4,82.95984495185029,83.89625771371274,0.9364127618624596,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,storage_rack_cross_aisle,1.0,33.11058620852092,33.747198837138875,0.6366126286179552,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,storage_rack_cross_aisle,2.0,6.206636653005741,6.419289497237532,0.2126528442317914,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,storage_rack_down_aisle,0.4,46.22952889794603,46.37855808545937,0.14902918751333316,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,storage_rack_down_aisle,1.0,8.041697691734921,8.406922618036777,0.36522492630185616,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive
+FW10,storage_rack_down_aisle,2.0,0.24025377417233826,0.2693193644324263,0.029065590260088064,Suitable q<l: split when min(q)<l<=max(q),Unsuitable q>=u: split when min(q)<u<=max(q),FNO less restrictive

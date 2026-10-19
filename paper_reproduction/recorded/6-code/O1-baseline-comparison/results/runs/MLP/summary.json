@@ -1,0 +1,14 @@
+{
+  "model": "MLP",
+  "best_val_mse": 0.7341581120553119,
+  "train_time_s": 5709.6286454200745,
+  "peak_gpu_gb": 0.24129295349121094,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/runs/MLP/checkpoints/MLP_best.pt",
+  "params": {
+    "numel": 9444352,
+    "numel_m": 9.444352,
+    "real_params": 9444352,
+    "real_params_m": 9.444352,
+    "trainable": 9444352
+  }
+}

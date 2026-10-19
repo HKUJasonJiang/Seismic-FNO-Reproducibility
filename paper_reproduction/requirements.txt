@@ -1,0 +1,15 @@
+# Install a CUDA-compatible PyTorch build separately; see README.md.
+# Use the neuralop and module sources in the parent repository, not pip neuralop.
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2,<4
+matplotlib>=3.8,<4
+h5py>=3.10,<4
+tensorly>=0.8,<1
+tensorly-torch>=0.5,<1
+opt-einsum>=3.3,<4
+configmypy>=0.2,<1
+wandb>=0.16,<1
+tqdm>=4.66,<5
+scikit-learn>=1.3,<2
+pypdf>=5,<7

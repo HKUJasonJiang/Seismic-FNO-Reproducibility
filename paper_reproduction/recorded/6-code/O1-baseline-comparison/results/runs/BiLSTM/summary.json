@@ -1,0 +1,14 @@
+{
+  "model": "BiLSTM",
+  "best_val_mse": 0.010168918287935313,
+  "train_time_s": 27026.021858215332,
+  "peak_gpu_gb": 15.61366891860962,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O1-baseline-comparison/results/runs/BiLSTM/checkpoints/BiLSTM_best.pt",
+  "params": {
+    "numel": 8410113,
+    "numel_m": 8.410113,
+    "real_params": 8410113,
+    "real_params_m": 8.410113,
+    "trainable": 8410113
+  }
+}

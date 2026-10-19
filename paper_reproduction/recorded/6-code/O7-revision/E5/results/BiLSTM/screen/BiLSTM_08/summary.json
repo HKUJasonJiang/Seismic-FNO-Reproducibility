@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "BiLSTM",
+  "stage": "screen",
+  "trial_id": "BiLSTM_08",
+  "best_val_mse": 0.017961727266367414,
+  "train_time_s": 9999.160167004913,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5/results/BiLSTM/screen/BiLSTM_08/checkpoints/best.pt",
+  "params": {
+    "numel": 3684865,
+    "numel_m": 3.684865,
+    "real_params": 3684865,
+    "real_params_m": 3.684865,
+    "trainable": 3684865
+  },
+  "test_used_for_selection": false
+}

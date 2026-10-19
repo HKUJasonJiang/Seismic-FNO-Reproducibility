@@ -1,0 +1,16 @@
+{
+  "model": "Transformer",
+  "run_id": "PGA-1to10",
+  "best_epoch": 50,
+  "best_val_mse": 0.018364211313975108,
+  "train_time_s": 7356.926266670227,
+  "peak_gpu_gb": 2.5364460945129395,
+  "best_checkpoint": "6-code/O3-generalization/results/pga_ood/runs/Transformer/PGA-1to10/checkpoints/Transformer_PGA-1to10_best.pt",
+  "params": {
+    "numel": 7957775,
+    "numel_m": 7.957775,
+    "real_params": 7957775,
+    "real_params_m": 7.957775,
+    "trainable": 7957775
+  }
+}

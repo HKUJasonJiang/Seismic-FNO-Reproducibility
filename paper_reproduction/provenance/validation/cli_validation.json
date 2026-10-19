@@ -1,0 +1,78 @@
+[
+  {
+    "entry": "o1-train",
+    "returncode": 0
+  },
+  {
+    "entry": "o1-fno",
+    "returncode": 0
+  },
+  {
+    "entry": "o1-evaluate",
+    "returncode": 0
+  },
+  {
+    "entry": "o2-train",
+    "returncode": 0
+  },
+  {
+    "entry": "o3-pga",
+    "returncode": 0
+  },
+  {
+    "entry": "o3-sampling",
+    "returncode": 0
+  },
+  {
+    "entry": "o3-classical",
+    "returncode": 0
+  },
+  {
+    "entry": "o4-train",
+    "returncode": 0
+  },
+  {
+    "entry": "o5-export",
+    "returncode": 0
+  },
+  {
+    "entry": "o5-frs",
+    "returncode": 0
+  },
+  {
+    "entry": "o5-p58",
+    "returncode": 0
+  },
+  {
+    "entry": "o5-placement",
+    "returncode": 0
+  },
+  {
+    "entry": "o5-duration",
+    "returncode": 0
+  },
+  {
+    "entry": "e1",
+    "returncode": 0
+  },
+  {
+    "entry": "e3",
+    "returncode": 0
+  },
+  {
+    "entry": "e4",
+    "returncode": 0
+  },
+  {
+    "entry": "e5-cache",
+    "returncode": 0
+  },
+  {
+    "entry": "e5",
+    "returncode": 0
+  },
+  {
+    "entry": "e5-additional",
+    "returncode": 0
+  }
+]

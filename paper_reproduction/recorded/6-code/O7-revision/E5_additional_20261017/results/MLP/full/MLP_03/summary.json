@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "family": "MLP",
+  "stage": "full",
+  "trial_id": "MLP_03",
+  "best_val_mse": 0.46933584448860866,
+  "train_time_s": 231.92545360140502,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5_additional_20261017/results/MLP/full/MLP_03/checkpoints/best.pt",
+  "params": {
+    "numel": 16784384,
+    "numel_m": 16.784384,
+    "real_params": 16784384,
+    "real_params_m": 16.784384,
+    "trainable": 16784384
+  },
+  "test_used_for_selection": false,
+  "test_same_grid": {
+    "mse": 0.47675477093203295,
+    "rmse": 0.690474308669072,
+    "mae": 0.4321100951145417,
+    "r2": 0.38714950527799796,
+    "pfa_mse_g2": 0.020405089275428726,
+    "pfa_rmse_g": 0.14284638348739784,
+    "pfa_mae_g": 0.11133818997383046,
+    "pfa_r2": 0.23128596012727787,
+    "seconds": 0.3964805733412504,
+    "evaluated_samples": 27018,
+    "evaluated_scalars": 81054000
+  }
+}

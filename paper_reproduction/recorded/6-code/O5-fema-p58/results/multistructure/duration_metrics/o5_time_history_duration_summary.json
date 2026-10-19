@@ -1,0 +1,19 @@
+{
+  "thresholds_g": [
+    0.1,
+    0.2,
+    0.4,
+    1.0
+  ],
+  "summary_csv": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\duration_metrics\\o5_time_history_duration_summary.csv",
+  "figures": {
+    "png": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure\\fig_o5_time_history_duration_metrics.png",
+    "pdf": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure\\fig_o5_time_history_duration_metrics.pdf"
+  },
+  "outputs": {
+    "F10_FEM_record_metrics": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\duration_metrics\\F10_fem_time_history_duration_metrics.csv",
+    "F10_FNO_record_metrics": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\duration_metrics\\F10_fno_time_history_duration_metrics.csv",
+    "FW10_FEM_record_metrics": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\duration_metrics\\FW10_fem_time_history_duration_metrics.csv",
+    "FW10_FNO_record_metrics": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\results\\multistructure\\duration_metrics\\FW10_fno_time_history_duration_metrics.csv"
+  }
+}

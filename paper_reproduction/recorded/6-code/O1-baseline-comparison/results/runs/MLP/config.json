@@ -1,0 +1,18 @@
+{
+  "model": "MLP",
+  "seed": 42,
+  "epochs": 50,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler_step": 20,
+  "scheduler_gamma": 0.5,
+  "split": "fixed_474_test_full_57_factors",
+  "params": {
+    "numel": 9444352,
+    "numel_m": 9.444352,
+    "real_params": 9444352,
+    "real_params_m": 9.444352,
+    "trainable": 9444352
+  }
+}

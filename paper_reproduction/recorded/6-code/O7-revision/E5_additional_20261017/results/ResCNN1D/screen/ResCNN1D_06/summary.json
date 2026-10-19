@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "ResCNN1D",
+  "stage": "screen",
+  "trial_id": "ResCNN1D_06",
+  "best_val_mse": 0.30277288440012795,
+  "train_time_s": 3227.683831527829,
+  "best_checkpoint": "/home/xg_wang_group/SeFNO-revision-20261014/6-code/O7-revision/E5_additional_20261017/results/ResCNN1D/screen/ResCNN1D_06/checkpoints/best.pt",
+  "params": {
+    "numel": 3550849,
+    "numel_m": 3.550849,
+    "real_params": 3550849,
+    "real_params_m": 3.550849,
+    "trainable": 3550849
+  },
+  "test_used_for_selection": false
+}

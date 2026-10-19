@@ -1,0 +1,870 @@
+{
+  "environment": {
+    "python": "3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0]",
+    "numpy": "1.26.4",
+    "h5py": "3.12.1",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  },
+  "units_basis": "m/s2 per generation README",
+  "large_value_thresholds_are_diagnostic_not_failure_criteria": [
+    100,
+    1000,
+    1000000.0
+  ],
+  "data": {
+    "inputs": {
+      "path": "/mnt/d/BaiduNetdiskDownload/SesimicTransformerData/MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+      "size_bytes": 4752434048,
+      "mtime_ns": 1760754975537592800,
+      "dataset": "Acc_GMs",
+      "shape": [
+        198018,
+        3000
+      ],
+      "dtype": "float64",
+      "logical_dataset_sha256": "59ef109da5fb7f3c047707094edcc7ea6245eba9f8ab17cceb3c429e3d53be55",
+      "hash_definition": "SHA256 concatenated C-order raw dtype bytes, row order; not container file hash",
+      "elapsed_seconds": 20.214986562728882,
+      "attributes": {},
+      "n_nonfinite_values": 0,
+      "n_nonfinite_samples": 0,
+      "all_zero_samples": 0,
+      "nonzero_with_trailing_zeros": 73701,
+      "tail_zero_points_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        181.0,
+        2056.0
+      ],
+      "peak_quantiles_ms2": [
+        0.015963,
+        0.1,
+        1.96238,
+        4.768008,
+        7.593822,
+        17.397647999999975,
+        19.911,
+        20.0
+      ],
+      "complete_label_count": 0,
+      "complete_label_fraction": null,
+      "diagnostic_gt_100_ms2_count": 0,
+      "diagnostic_gt_1000_ms2_count": 0,
+      "diagnostic_gt_1e6_ms2_count": 0,
+      "container_file_sha256": "62b008c1cf36053a6569634899d3efa1ba21dc42bfd0ee8f467143266d2b76ce",
+      "container_hash_provenance": "E5 cache_data.py full read of the identical source path, 2026-10-14"
+    },
+    "F2": {
+      "path": "/mnt/d/BaiduNetdiskDownload/SesimicTransformerData/MDOF/knet-250/Data/Blg_F2_6m_IM7_st0.h5",
+      "size_bytes": 4754020264,
+      "mtime_ns": 1760755991488252100,
+      "dataset": "Acc_Floor_Response",
+      "shape": [
+        198018,
+        3000
+      ],
+      "dtype": "float64",
+      "logical_dataset_sha256": "5514ca28302953d2be9abbeba4b36c138c7aa6f0b7a93ba1a37da821f5a50447",
+      "hash_definition": "SHA256 concatenated C-order raw dtype bytes, row order; not container file hash",
+      "elapsed_seconds": 40.85560369491577,
+      "attributes": {
+        "IM": [
+          1
+        ],
+        "height": [
+          6.0
+        ],
+        "stories": [
+          2
+        ],
+        "struct_type": [
+          0
+        ]
+      },
+      "damage_state_counts": {
+        "0.0": 13934,
+        "1.0": 42259,
+        "2.0": 73347,
+        "3.0": 37976,
+        "4.0": 30502
+      },
+      "damage_state_logical_sha256": "b939fc184c173c53a26529de76e6c54fc0020d481880769b6533ca3f84ba7d86",
+      "n_nonfinite_values": 0,
+      "n_nonfinite_samples": 0,
+      "all_zero_samples": 0,
+      "nonzero_with_trailing_zeros": 260,
+      "tail_zero_points_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        965.0
+      ],
+      "peak_quantiles_ms2": [
+        0.0371868642952624,
+        0.27868586368646114,
+        2.97663331107476,
+        4.143921987639514,
+        4.711367101372658,
+        6.1496092820846275,
+        7.7411666805601715,
+        20.74538590771162
+      ],
+      "complete_label_count": 30502,
+      "complete_label_fraction": 0.15403650173216576,
+      "diagnostic_gt_100_ms2_count": 0,
+      "diagnostic_gt_1000_ms2_count": 0,
+      "diagnostic_gt_1e6_ms2_count": 0
+    },
+    "F6": {
+      "path": "/mnt/d/BaiduNetdiskDownload/SesimicTransformerData/MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+      "size_bytes": 4754020264,
+      "mtime_ns": 1760757110826480400,
+      "dataset": "Acc_Floor_Response",
+      "shape": [
+        198018,
+        3000
+      ],
+      "dtype": "float64",
+      "logical_dataset_sha256": "440b8cb11e6f76382cda584d49ed080fbbd0a603c53c3f307ca9d74f8222cb66",
+      "hash_definition": "SHA256 concatenated C-order raw dtype bytes, row order; not container file hash",
+      "elapsed_seconds": 39.015543699264526,
+      "attributes": {
+        "IM": [
+          1
+        ],
+        "height": [
+          18.0
+        ],
+        "stories": [
+          6
+        ],
+        "struct_type": [
+          0
+        ]
+      },
+      "damage_state_counts": {
+        "0.0": 22680,
+        "1.0": 67327,
+        "2.0": 38727,
+        "3.0": 34662,
+        "4.0": 34622
+      },
+      "damage_state_logical_sha256": "30a8d891ee1f1bd3ddb9ff8f49b6feffeb73c78547c0ce668553579e85b15506",
+      "n_nonfinite_values": 0,
+      "n_nonfinite_samples": 0,
+      "all_zero_samples": 0,
+      "nonzero_with_trailing_zeros": 42,
+      "tail_zero_points_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "peak_quantiles_ms2": [
+        0.0314582971542835,
+        0.24938086955197225,
+        2.6692720287520144,
+        4.0321922094422415,
+        4.893290358631006,
+        6.155937544524417,
+        7.026131658101815,
+        18.10349724340014
+      ],
+      "complete_label_count": 34622,
+      "complete_label_fraction": 0.17484269106848874,
+      "diagnostic_gt_100_ms2_count": 0,
+      "diagnostic_gt_1000_ms2_count": 0,
+      "diagnostic_gt_1e6_ms2_count": 0,
+      "container_file_sha256": "c848b55b161ffa9abbd6a9dea4d1c574784896725507a9cc2379757063cb3ce2",
+      "container_hash_provenance": "E5 cache_data.py full read of the identical source path, 2026-10-14"
+    },
+    "F10": {
+      "path": "/mnt/d/BaiduNetdiskDownload/SesimicTransformerData/MDOF/knet-250/Data/Blg_F10_30m_IM7_st0.h5",
+      "size_bytes": 4754020264,
+      "mtime_ns": 1760759201477259000,
+      "dataset": "Acc_Floor_Response",
+      "shape": [
+        198018,
+        3000
+      ],
+      "dtype": "float64",
+      "logical_dataset_sha256": "9558389f719b6f225535546de8e347191bdf2f96c84c8658a7465793745b1add",
+      "hash_definition": "SHA256 concatenated C-order raw dtype bytes, row order; not container file hash",
+      "elapsed_seconds": 26.24830198287964,
+      "attributes": {
+        "IM": [
+          1
+        ],
+        "height": [
+          30.0
+        ],
+        "stories": [
+          10
+        ],
+        "struct_type": [
+          0
+        ]
+      },
+      "damage_state_counts": {
+        "0.0": 22064,
+        "1.0": 69706,
+        "2.0": 41182,
+        "3.0": 33958,
+        "4.0": 31108
+      },
+      "damage_state_logical_sha256": "94d12887e2b77819dedeffb0867c03839ba713e1b835b6eddfe95fe83d0cb87e",
+      "n_nonfinite_values": 0,
+      "n_nonfinite_samples": 0,
+      "all_zero_samples": 0,
+      "nonzero_with_trailing_zeros": 75,
+      "tail_zero_points_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0
+      ],
+      "peak_quantiles_ms2": [
+        0.0309601005670802,
+        0.19753276098698655,
+        2.0740843850733333,
+        2.785981229209654,
+        3.384174965208352,
+        4.120427939180816,
+        4.682491702431868,
+        14.754046649598715
+      ],
+      "complete_label_count": 31108,
+      "complete_label_fraction": 0.15709682958114918,
+      "diagnostic_gt_100_ms2_count": 0,
+      "diagnostic_gt_1000_ms2_count": 0,
+      "diagnostic_gt_1e6_ms2_count": 0
+    },
+    "FW10": {
+      "path": "/mnt/d/BaiduNetdiskDownload/SesimicTransformerData/MDOF/knet-250/Data/Blg_F10_30m_IM7_st1.h5",
+      "size_bytes": 4754020264,
+      "mtime_ns": 1760759304092191600,
+      "dataset": "Acc_Floor_Response",
+      "shape": [
+        198018,
+        3000
+      ],
+      "dtype": "float64",
+      "logical_dataset_sha256": "1c1268499d6420b31f058db73b5fc38b5030368300b7bc960f6e4ea153c52fff",
+      "hash_definition": "SHA256 concatenated C-order raw dtype bytes, row order; not container file hash",
+      "elapsed_seconds": 20.643221139907837,
+      "attributes": {
+        "IM": [
+          1
+        ],
+        "height": [
+          30.0
+        ],
+        "stories": [
+          10
+        ],
+        "struct_type": [
+          1
+        ]
+      },
+      "damage_state_counts": {
+        "0.0": 99278,
+        "1.0": 28497,
+        "2.0": 38495,
+        "3.0": 31748
+      },
+      "damage_state_logical_sha256": "a43dc6768d44700c2f8bbfdf3884c8d4622ad6ca20ad0250ef177e6358132484",
+      "n_nonfinite_values": 0,
+      "n_nonfinite_samples": 0,
+      "all_zero_samples": 0,
+      "nonzero_with_trailing_zeros": 153,
+      "tail_zero_points_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        7.0
+      ],
+      "peak_quantiles_ms2": [
+        0.0237948982673658,
+        0.2650675353295155,
+        3.233198720591989,
+        5.360537818819781,
+        7.533653463646795,
+        9.883622768932911,
+        10.973649304988674,
+        14.37141315326822
+      ],
+      "complete_label_count": 0,
+      "complete_label_fraction": 0.0,
+      "diagnostic_gt_100_ms2_count": 0,
+      "diagnostic_gt_1000_ms2_count": 0,
+      "diagnostic_gt_1e6_ms2_count": 0
+    },
+    "FW14": {
+      "path": "/mnt/d/BaiduNetdiskDownload/SesimicTransformerData/MDOF/knet-250/Data/Blg_F14_42m_IM7_st1.h5",
+      "size_bytes": 4754020264,
+      "mtime_ns": 1760760738026257300,
+      "dataset": "Acc_Floor_Response",
+      "shape": [
+        198018,
+        3000
+      ],
+      "dtype": "float64",
+      "logical_dataset_sha256": "ad5f605d38a7e06f4807243fce7eebe4a4aa3e401d03300125967383aba0ac3a",
+      "hash_definition": "SHA256 concatenated C-order raw dtype bytes, row order; not container file hash",
+      "elapsed_seconds": 20.852649927139282,
+      "attributes": {
+        "IM": [
+          1
+        ],
+        "height": [
+          42.0
+        ],
+        "stories": [
+          14
+        ],
+        "struct_type": [
+          1
+        ]
+      },
+      "damage_state_counts": {
+        "0.0": 107551,
+        "1.0": 26675,
+        "2.0": 35753,
+        "3.0": 28039
+      },
+      "damage_state_logical_sha256": "ff2d803c627de43e3577151e1ffb95e4eff78338353ff472bba365fc6c54a6df",
+      "n_nonfinite_values": 0,
+      "n_nonfinite_samples": 0,
+      "all_zero_samples": 0,
+      "nonzero_with_trailing_zeros": 43,
+      "tail_zero_points_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.0
+      ],
+      "peak_quantiles_ms2": [
+        0.0332108820378211,
+        0.2352173330605521,
+        2.9531526317123165,
+        4.892017357643693,
+        6.487485416721561,
+        8.110027849475488,
+        8.941677432998201,
+        12.90823989159362
+      ],
+      "complete_label_count": 0,
+      "complete_label_fraction": 0.0,
+      "diagnostic_gt_100_ms2_count": 0,
+      "diagnostic_gt_1000_ms2_count": 0,
+      "diagnostic_gt_1e6_ms2_count": 0
+    },
+    "FW17": {
+      "path": "/mnt/d/BaiduNetdiskDownload/SesimicTransformerData/MDOF/knet-250/Data/Blg_F17_52m_IM7_st1.h5",
+      "size_bytes": 4754020264,
+      "mtime_ns": 1760761909090961500,
+      "dataset": "Acc_Floor_Response",
+      "shape": [
+        198018,
+        3000
+      ],
+      "dtype": "float64",
+      "logical_dataset_sha256": "434fc6594f91de6ffdcd1d196d352bb498c1ec74bb7187efe189a41125452b1a",
+      "hash_definition": "SHA256 concatenated C-order raw dtype bytes, row order; not container file hash",
+      "elapsed_seconds": 20.95672297477722,
+      "attributes": {
+        "IM": [
+          1
+        ],
+        "height": [
+          52.0
+        ],
+        "stories": [
+          17
+        ],
+        "struct_type": [
+          1
+        ]
+      },
+      "damage_state_counts": {
+        "0.0": 116759,
+        "1.0": 25507,
+        "2.0": 33000,
+        "3.0": 22752
+      },
+      "damage_state_logical_sha256": "1eacc2302a7e4175c993c659842f715107b3288e3c8f3167cbbf590f98c49dcf",
+      "n_nonfinite_values": 0,
+      "n_nonfinite_samples": 0,
+      "all_zero_samples": 0,
+      "nonzero_with_trailing_zeros": 3,
+      "tail_zero_points_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "peak_quantiles_ms2": [
+        0.0343194071234284,
+        0.21845574305214038,
+        2.8313504222250754,
+        4.715406347287569,
+        6.118356907932195,
+        7.644677932830808,
+        8.467016757324565,
+        13.473973898729398
+      ],
+      "complete_label_count": 0,
+      "complete_label_fraction": 0.0,
+      "diagnostic_gt_100_ms2_count": 0,
+      "diagnostic_gt_1000_ms2_count": 0,
+      "diagnostic_gt_1e6_ms2_count": 0
+    }
+  },
+  "comparison": {
+    "F2": {
+      "peak_amplification_quantiles": [
+        0.20818882383574502,
+        0.8869401536042825,
+        2.8510323073520216,
+        3.8862386543216534,
+        7.834216644517449
+      ],
+      "output_tails_and_nonzero_input": 0,
+      "output_zero_when_input_nonzero": 0
+    },
+    "F6": {
+      "peak_amplification_quantiles": [
+        0.187605819135701,
+        0.8738298227852972,
+        2.707216949981421,
+        3.716483184027704,
+        7.852299224267243
+      ],
+      "output_tails_and_nonzero_input": 0,
+      "output_zero_when_input_nonzero": 0
+    },
+    "F10": {
+      "peak_amplification_quantiles": [
+        0.11843881909015919,
+        0.6157165953078207,
+        2.1057491027673807,
+        2.9441262478109915,
+        6.353368148608669
+      ],
+      "output_tails_and_nonzero_input": 0,
+      "output_zero_when_input_nonzero": 0
+    },
+    "FW10": {
+      "peak_amplification_quantiles": [
+        0.31930006731174104,
+        1.1843938211167686,
+        2.7501750596025563,
+        3.572350938423054,
+        8.116712137666818
+      ],
+      "output_tails_and_nonzero_input": 0,
+      "output_zero_when_input_nonzero": 0
+    },
+    "FW14": {
+      "peak_amplification_quantiles": [
+        0.2416147026057337,
+        1.062097215628551,
+        2.440534125250879,
+        3.1717600639145527,
+        7.064483794642753
+      ],
+      "output_tails_and_nonzero_input": 0,
+      "output_zero_when_input_nonzero": 0
+    },
+    "FW17": {
+      "peak_amplification_quantiles": [
+        0.22501401581021038,
+        1.016755134345865,
+        2.3013581302719692,
+        2.9539383725376838,
+        6.9512561486971265
+      ],
+      "output_tails_and_nonzero_input": 0,
+      "output_zero_when_input_nonzero": 0
+    }
+  },
+  "input_pga_by_scale": [
+    {
+      "scale_index": 0,
+      "min": 0.015963,
+      "median": 0.099861,
+      "max": 0.1
+    },
+    {
+      "scale_index": 1,
+      "min": 0.031926,
+      "median": 0.199722,
+      "max": 0.2
+    },
+    {
+      "scale_index": 2,
+      "min": 0.047888999999999994,
+      "median": 0.299583,
+      "max": 0.3
+    },
+    {
+      "scale_index": 3,
+      "min": 0.063852,
+      "median": 0.399444,
+      "max": 0.4
+    },
+    {
+      "scale_index": 4,
+      "min": 0.079815,
+      "median": 0.499305,
+      "max": 0.5
+    },
+    {
+      "scale_index": 5,
+      "min": 0.09577799999999999,
+      "median": 0.599166,
+      "max": 0.6
+    },
+    {
+      "scale_index": 6,
+      "min": 0.111741,
+      "median": 0.699027,
+      "max": 0.7
+    },
+    {
+      "scale_index": 7,
+      "min": 0.127704,
+      "median": 0.798888,
+      "max": 0.8
+    },
+    {
+      "scale_index": 8,
+      "min": 0.143667,
+      "median": 0.898749,
+      "max": 0.9
+    },
+    {
+      "scale_index": 9,
+      "min": 0.15963,
+      "median": 0.99861,
+      "max": 1.0
+    },
+    {
+      "scale_index": 10,
+      "min": 0.19155599999999998,
+      "median": 1.198332,
+      "max": 1.2
+    },
+    {
+      "scale_index": 11,
+      "min": 0.223482,
+      "median": 1.398054,
+      "max": 1.4
+    },
+    {
+      "scale_index": 12,
+      "min": 0.255408,
+      "median": 1.597776,
+      "max": 1.6
+    },
+    {
+      "scale_index": 13,
+      "min": 0.287334,
+      "median": 1.797498,
+      "max": 1.8
+    },
+    {
+      "scale_index": 14,
+      "min": 0.31926,
+      "median": 1.99722,
+      "max": 2.0
+    },
+    {
+      "scale_index": 15,
+      "min": 0.351186,
+      "median": 2.196942,
+      "max": 2.2
+    },
+    {
+      "scale_index": 16,
+      "min": 0.38311199999999995,
+      "median": 2.396664,
+      "max": 2.4
+    },
+    {
+      "scale_index": 17,
+      "min": 0.415038,
+      "median": 2.596386,
+      "max": 2.6
+    },
+    {
+      "scale_index": 18,
+      "min": 0.446964,
+      "median": 2.796108,
+      "max": 2.8
+    },
+    {
+      "scale_index": 19,
+      "min": 0.47889,
+      "median": 2.9958299999999998,
+      "max": 3.0
+    },
+    {
+      "scale_index": 20,
+      "min": 0.510816,
+      "median": 3.195552,
+      "max": 3.2
+    },
+    {
+      "scale_index": 21,
+      "min": 0.542742,
+      "median": 3.395274,
+      "max": 3.4
+    },
+    {
+      "scale_index": 22,
+      "min": 0.574668,
+      "median": 3.594996,
+      "max": 3.6
+    },
+    {
+      "scale_index": 23,
+      "min": 0.606594,
+      "median": 3.794718,
+      "max": 3.8
+    },
+    {
+      "scale_index": 24,
+      "min": 0.63852,
+      "median": 3.99444,
+      "max": 4.0
+    },
+    {
+      "scale_index": 25,
+      "min": 0.670446,
+      "median": 4.194162,
+      "max": 4.2
+    },
+    {
+      "scale_index": 26,
+      "min": 0.702372,
+      "median": 4.393884,
+      "max": 4.4
+    },
+    {
+      "scale_index": 27,
+      "min": 0.7342979999999999,
+      "median": 4.593605999999999,
+      "max": 4.6
+    },
+    {
+      "scale_index": 28,
+      "min": 0.7662239999999999,
+      "median": 4.793328,
+      "max": 4.8
+    },
+    {
+      "scale_index": 29,
+      "min": 0.7981499999999999,
+      "median": 4.99305,
+      "max": 5.0
+    },
+    {
+      "scale_index": 30,
+      "min": 0.830076,
+      "median": 5.192772,
+      "max": 5.2
+    },
+    {
+      "scale_index": 31,
+      "min": 0.862002,
+      "median": 5.392494,
+      "max": 5.4
+    },
+    {
+      "scale_index": 32,
+      "min": 0.893928,
+      "median": 5.592216,
+      "max": 5.6
+    },
+    {
+      "scale_index": 33,
+      "min": 0.925854,
+      "median": 5.791938,
+      "max": 5.8
+    },
+    {
+      "scale_index": 34,
+      "min": 0.95778,
+      "median": 5.9916599999999995,
+      "max": 6.0
+    },
+    {
+      "scale_index": 35,
+      "min": 0.989706,
+      "median": 6.191382,
+      "max": 6.2
+    },
+    {
+      "scale_index": 36,
+      "min": 1.021632,
+      "median": 6.391104,
+      "max": 6.4
+    },
+    {
+      "scale_index": 37,
+      "min": 1.053558,
+      "median": 6.590826,
+      "max": 6.6
+    },
+    {
+      "scale_index": 38,
+      "min": 1.085484,
+      "median": 6.790548,
+      "max": 6.8
+    },
+    {
+      "scale_index": 39,
+      "min": 1.11741,
+      "median": 6.99027,
+      "max": 7.0
+    },
+    {
+      "scale_index": 40,
+      "min": 1.149336,
+      "median": 7.189992,
+      "max": 7.2
+    },
+    {
+      "scale_index": 41,
+      "min": 1.181262,
+      "median": 7.389714000000001,
+      "max": 7.4
+    },
+    {
+      "scale_index": 42,
+      "min": 1.213188,
+      "median": 7.589436,
+      "max": 7.6
+    },
+    {
+      "scale_index": 43,
+      "min": 1.2451139999999998,
+      "median": 7.789158,
+      "max": 7.8
+    },
+    {
+      "scale_index": 44,
+      "min": 1.27704,
+      "median": 7.98888,
+      "max": 8.0
+    },
+    {
+      "scale_index": 45,
+      "min": 1.43667,
+      "median": 8.98749,
+      "max": 9.0
+    },
+    {
+      "scale_index": 46,
+      "min": 1.5962999999999998,
+      "median": 9.9861,
+      "max": 10.0
+    },
+    {
+      "scale_index": 47,
+      "min": 1.75593,
+      "median": 10.98471,
+      "max": 11.0
+    },
+    {
+      "scale_index": 48,
+      "min": 1.91556,
+      "median": 11.983319999999999,
+      "max": 12.0
+    },
+    {
+      "scale_index": 49,
+      "min": 2.07519,
+      "median": 12.98193,
+      "max": 13.0
+    },
+    {
+      "scale_index": 50,
+      "min": 2.23482,
+      "median": 13.98054,
+      "max": 14.0
+    },
+    {
+      "scale_index": 51,
+      "min": 2.39445,
+      "median": 14.97915,
+      "max": 15.0
+    },
+    {
+      "scale_index": 52,
+      "min": 2.55408,
+      "median": 15.97776,
+      "max": 16.0
+    },
+    {
+      "scale_index": 53,
+      "min": 2.71371,
+      "median": 16.97637,
+      "max": 17.0
+    },
+    {
+      "scale_index": 54,
+      "min": 2.87334,
+      "median": 17.97498,
+      "max": 18.0
+    },
+    {
+      "scale_index": 55,
+      "min": 3.0329699999999997,
+      "median": 18.97359,
+      "max": 19.0
+    },
+    {
+      "scale_index": 56,
+      "min": 3.1925999999999997,
+      "median": 19.9722,
+      "max": 20.0
+    }
+  ],
+  "input_intensity_coverage": {
+    "g_ms2": 9.80665,
+    "n_samples": 198018,
+    "strict_exceedance": true,
+    "thresholds": [
+      {
+        "threshold_g": 0.5,
+        "threshold_ms2": 4.903325,
+        "n_exceeding": 96195,
+        "fraction": 0.4857891706814532,
+        "percent": 48.57891706814532
+      },
+      {
+        "threshold_g": 1.0,
+        "threshold_ms2": 9.80665,
+        "n_exceeding": 37388,
+        "fraction": 0.18881111818117544,
+        "percent": 18.881111818117546
+      },
+      {
+        "threshold_g": 1.5,
+        "threshold_ms2": 14.709975,
+        "n_exceeding": 19969,
+        "fraction": 0.10084436768374593,
+        "percent": 10.084436768374593
+      }
+    ]
+  }
+}

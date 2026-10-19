@@ -1,0 +1,34 @@
+{
+  "files": {
+    "x50": {
+      "source": "/data/home/jason/data/SesimicTransformerData/MDOF/All_GMs/GMs_knet_3474_AF_57.h5",
+      "dataset": "Acc_GMs",
+      "source_shape": [
+        198018,
+        3000
+      ],
+      "source_dtype": "float64",
+      "source_size": 4752434048,
+      "source_mtime": 1780539628.324488,
+      "cache": "6-code/O7-revision/E5/cache/x50.npy",
+      "cache_sha256": "bc2f463735bbe4827fbe8d95580fe67f27a88d8c078bf091a5167a2794dc56e1",
+      "source_sha256": "62b008c1cf36053a6569634899d3efa1ba21dc42bfd0ee8f467143266d2b76ce"
+    },
+    "y50": {
+      "source": "/data/home/jason/data/SesimicTransformerData/MDOF/knet-250/Data/fno/Blg_F6_18m_IM7_st0.h5",
+      "dataset": "Acc_Floor_Response",
+      "source_shape": [
+        198018,
+        3000
+      ],
+      "source_dtype": "float64",
+      "source_size": 4754020264,
+      "source_mtime": 1780539634.1515534,
+      "cache": "6-code/O7-revision/E5/cache/y50.npy",
+      "cache_sha256": "1693ebe45a64f3d384590ddf99b876b742b0afba22cb199921db13777fa1d741",
+      "source_sha256": "c848b55b161ffa9abbd6a9dea4d1c574784896725507a9cc2379757063cb3ce2"
+    }
+  },
+  "conversion": "float64 or native HDF5 -> float32 identical to torch.from_numpy(...).float()",
+  "created_unix": 1791969433.9939601
+}

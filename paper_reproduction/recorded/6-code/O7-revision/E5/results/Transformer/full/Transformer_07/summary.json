@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "family": "Transformer",
+  "stage": "full",
+  "trial_id": "Transformer_07",
+  "best_val_mse": 0.019618811819214106,
+  "train_time_s": 5022.809343429282,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/full/Transformer_07/checkpoints/best.pt",
+  "params": {
+    "numel": 11116815,
+    "numel_m": 11.116815,
+    "real_params": 11116815,
+    "real_params_m": 11.116815,
+    "trainable": 11116815
+  },
+  "test_used_for_selection": false,
+  "test_same_grid": {
+    "mse": 0.019331666329736097,
+    "rmse": 0.13903836279867546,
+    "mae": 0.061553107095028856,
+    "r2": 0.9751498631584945,
+    "pfa_mse_g2": 0.0005140478963837457,
+    "pfa_rmse_g": 0.02267262438236354,
+    "pfa_mae_g": 0.01417176081083433,
+    "pfa_r2": 0.9806344506066073,
+    "seconds": 4.8380437679588795
+  }
+}

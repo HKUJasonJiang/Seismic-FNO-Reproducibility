@@ -1,0 +1,111 @@
+{
+  "status": "pass",
+  "torch": "2.13.0+cu130",
+  "device": "cpu",
+  "models": [
+    {
+      "model": "BiLSTM",
+      "shape": [
+        1,
+        1,
+        3000
+      ],
+      "numel": 8410113,
+      "real_params": 8410113
+    },
+    {
+      "model": "Transformer",
+      "shape": [
+        1,
+        1,
+        3000
+      ],
+      "numel": 7957775,
+      "real_params": 7957775
+    },
+    {
+      "model": "FNO-Large",
+      "shape": [
+        1,
+        1,
+        3000
+      ],
+      "numel": 8505793,
+      "real_params": 16927169
+    },
+    {
+      "model": "ResCNN1D",
+      "shape": [
+        1,
+        1,
+        3000
+      ],
+      "numel": 7355137,
+      "real_params": 7355137
+    },
+    {
+      "model": "UNet1D",
+      "shape": [
+        1,
+        1,
+        3000
+      ],
+      "numel": 7848321,
+      "real_params": 7848321
+    },
+    {
+      "model": "MLP",
+      "shape": [
+        1,
+        1,
+        3000
+      ],
+      "numel": 9444352,
+      "real_params": 9444352
+    }
+  ],
+  "selected_models": [
+    {
+      "model": "BiLSTM",
+      "trial": "BiLSTM_05",
+      "real_params": 14709761,
+      "finite_forward": true
+    },
+    {
+      "model": "Transformer",
+      "trial": "Transformer_07",
+      "real_params": 11116815,
+      "finite_forward": true
+    },
+    {
+      "model": "FNO",
+      "trial": "FNO_07",
+      "real_params": 67703681,
+      "finite_forward": true
+    },
+    {
+      "model": "ResCNN1D",
+      "trial": "ResCNN1D_03",
+      "real_params": 11031297,
+      "finite_forward": true
+    },
+    {
+      "model": "UNet1D",
+      "trial": "UNet1D_05",
+      "real_params": 31458689,
+      "finite_forward": true
+    },
+    {
+      "model": "MLP",
+      "trial": "MLP_03",
+      "real_params": 16784384,
+      "finite_forward": true
+    }
+  ],
+  "checks": [
+    "original and selected parameter counts",
+    "3000-sample finite forwards",
+    "closed-form regression/PFA metrics",
+    "regenerated grouped split"
+  ]
+}

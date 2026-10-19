@@ -1,0 +1,13 @@
+structure_id,paper_label,source,capacity_g,band_id,label,period_min_s,period_max_s,reference_basis,mean_exceedance_percent
+F10,F-10,FEM,1.0,rigid_mep,Rigid MEP/electrical equipment,0.05,0.2,BD-3.9.10 MEP equipment GERS range: 0.05-0.2 s,1.1843955881264343
+F10,F-10,FEM,1.0,storage_rack_cross_aisle,Storage rack cross-aisle sensitivity,0.5,1.0,BD-3.9.5 storage rack cross-aisle period: about 0.5-1.0 s,16.257175351112725
+F10,F-10,FEM,1.0,storage_rack_down_aisle,Storage rack down-aisle sensitivity,1.5,3.0,BD-3.9.5 storage rack down-aisle period: about 1.5-3.0 s,4.742589907382006
+F10,F-10,FNO,1.0,rigid_mep,Rigid MEP/electrical equipment,0.05,0.2,BD-3.9.10 MEP equipment GERS range: 0.05-0.2 s,0.5144718335924199
+F10,F-10,FNO,1.0,storage_rack_cross_aisle,Storage rack cross-aisle sensitivity,0.5,1.0,BD-3.9.5 storage rack cross-aisle period: about 0.5-1.0 s,15.572110175707776
+F10,F-10,FNO,1.0,storage_rack_down_aisle,Storage rack down-aisle sensitivity,1.5,3.0,BD-3.9.5 storage rack down-aisle period: about 1.5-3.0 s,4.378127000300452
+FW10,FW-10,FEM,1.0,rigid_mep,Rigid MEP/electrical equipment,0.05,0.2,BD-3.9.10 MEP equipment GERS range: 0.05-0.2 s,43.74953734547339
+FW10,FW-10,FEM,1.0,storage_rack_cross_aisle,Storage rack cross-aisle sensitivity,0.5,1.0,BD-3.9.5 storage rack cross-aisle period: about 0.5-1.0 s,33.747198837138875
+FW10,FW-10,FEM,1.0,storage_rack_down_aisle,Storage rack down-aisle sensitivity,1.5,3.0,BD-3.9.5 storage rack down-aisle period: about 1.5-3.0 s,8.406922618036777
+FW10,FW-10,FNO,1.0,rigid_mep,Rigid MEP/electrical equipment,0.05,0.2,BD-3.9.10 MEP equipment GERS range: 0.05-0.2 s,34.139277518691244
+FW10,FW-10,FNO,1.0,storage_rack_cross_aisle,Storage rack cross-aisle sensitivity,0.5,1.0,BD-3.9.5 storage rack cross-aisle period: about 0.5-1.0 s,33.110586208520914
+FW10,FW-10,FNO,1.0,storage_rack_down_aisle,Storage rack down-aisle sensitivity,1.5,3.0,BD-3.9.5 storage rack down-aisle period: about 1.5-3.0 s,8.041697691734921

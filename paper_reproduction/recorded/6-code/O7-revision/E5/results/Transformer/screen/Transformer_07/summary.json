@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "family": "Transformer",
+  "stage": "screen",
+  "trial_id": "Transformer_07",
+  "best_val_mse": 0.03143732713844344,
+  "train_time_s": 673.22057267325,
+  "best_checkpoint": "/data/home/jason/Seismic-FNO/6-code/O7-revision/E5/results/Transformer/screen/Transformer_07/checkpoints/best.pt",
+  "params": {
+    "numel": 11116815,
+    "numel_m": 11.116815,
+    "real_params": 11116815,
+    "real_params_m": 11.116815,
+    "trainable": 11116815
+  },
+  "test_used_for_selection": false
+}

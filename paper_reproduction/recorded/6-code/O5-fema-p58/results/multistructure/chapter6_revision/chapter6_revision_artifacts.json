@@ -1,0 +1,24 @@
+{
+  "normalized_input_spectra": {
+    "png": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_normalized_input_spectra.png",
+    "pdf": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_normalized_input_spectra.pdf"
+  },
+  "duration_by_scale": {
+    "F10": {
+      "png": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_duration_by_scale_F10.png",
+      "pdf": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_duration_by_scale_F10.pdf"
+    },
+    "FW10": {
+      "png": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_duration_by_scale_FW10.png",
+      "pdf": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_duration_by_scale_FW10.pdf"
+    }
+  },
+  "full_roof_frs": {
+    "png": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_full_roof_frs.png",
+    "pdf": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_full_roof_frs.pdf"
+  },
+  "period_exceedance": {
+    "png": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_period_exceedance_combined.png",
+    "pdf": "D:\\BaiduSyncdisk\\Paper\\6-SeFNO\\6-code\\O5-fema-p58\\figures\\multistructure_revision\\fig_o5_period_exceedance_combined.pdf"
+  }
+}

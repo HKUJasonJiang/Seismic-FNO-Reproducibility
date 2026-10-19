@@ -1,0 +1,36 @@
+[
+  {
+    "model": "Transformer",
+    "run_id": "S-25Hz",
+    "checkpoint": "6-code/O3-generalization/results/sampling_ood/runs/Transformer/S-25Hz/checkpoints/Transformer_S-25Hz_best.pt",
+    "best_epoch": 50,
+    "best_val_mse": 0.022648437779595746,
+    "train_time_s": 11630.184648513794,
+    "peak_gpu_gb": 1.3688721656799316,
+    "best_checkpoint": "6-code/O3-generalization/results/sampling_ood/runs/Transformer/S-25Hz/checkpoints/Transformer_S-25Hz_best.pt",
+    "params": {
+      "numel": 7932175,
+      "numel_m": 7.932175,
+      "real_params": 7932175,
+      "real_params_m": 7.932175,
+      "trainable": 7932175
+    },
+    "numel": 7932175,
+    "numel_m": 7.932175,
+    "real_params": 7932175,
+    "real_params_m": 7.932175,
+    "trainable": 7932175,
+    "mse": 1.0491019545033249,
+    "rmse": 1.0242567815266468,
+    "mae": 0.5733183054227351,
+    "r2": -0.3485814769106048,
+    "pfa_mse_g2": 0.0038079551476051755,
+    "pfa_rmse_g": 0.06170863106247922,
+    "pfa_mae_g": 0.04651568468321754,
+    "pfa_r2": 0.8565442169542081,
+    "loss": 1.0494630200783974,
+    "spectral_log_mse": 0.8758457179046973,
+    "high_freq_log_mse": 0.8768795029773216,
+    "latency_ms_per_sample": 0.13374779373407364
+  }
+]

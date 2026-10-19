@@ -12,3 +12,10 @@
 - Added no new model training, changed no manuscript/response text, and did not push or publish.
 
 Detailed results and remaining release gaps are in `VALIDATION.md` and `AUDIT_ZH.md`. No claim of complete checkpoint-level reproduction is made for artifacts still awaiting publication.
+
+## 2026-10-19 — independent repository
+
+- Created `HKUJasonJiang/Seismic-FNO-Reproducibility` as a private repository with one `main` branch, at the author's request to consolidate the machine-specific history.
+- Verified all six original remote branch tips and confirmed `df60ca2` is the latest historical artifact branch. The final O2 summary matches that branch.
+- Preserved exact source/evidence bytes in Git and scoped workspace ignore rules so historical `recorded/.../runs/` directories are included. All 436 source/evidence entries were checked against the staged Git blobs before upload.
+- Retained the old repository unchanged; added repository history and provenance references instead of merging machine queues into the new release.

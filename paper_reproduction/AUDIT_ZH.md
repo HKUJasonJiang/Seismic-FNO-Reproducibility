@@ -1,6 +1,6 @@
 # 论文与开源代码对应核对（2026-10-19）
 
-本目录基于 GitHub `main` 的 `e8063eb67a497b35a8f5b8f96a26a19457bb38a1` 整理。对应论文主文件和各 Section 的 SHA256 记录在 `provenance/source_manifest.json`。未改动论文、回复信或原有实验目录；本地整理尚未推送。
+本目录基于原 GitHub 仓库 `main` 的 `e8063eb67a497b35a8f5b8f96a26a19457bb38a1` 整理，并核对了最新历史汇总分支 `sync/paper-artifacts-20260615`（`df60ca2`）。对应论文主文件和各 Section 的 SHA256 记录在 `provenance/source_manifest.json`。现统一保存在独立私有仓库 `HKUJasonJiang/Seismic-FNO-Reproducibility` 的 `main` 分支；论文、回复信和旧仓库均未改动。
 
 ## 已整理并验证的内容
 
